@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title><%= title %></title>
+
+    <!-- angular -->
+    <script src="/assets/lib/angular/angular.min.js"></script>
+    <script src="/assets/lib/angular-route/angular-route.min.js"></script>
+
+    <!-- ui-bootstrap -->
+    <script src="/assets/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+    <!-- modules -->
+    <script src="/app.client.module.js"></script>
+
+    <!-- config -->
+    <script src="/config/routes.client.config.js"></script>
+
+    <!-- Index -->
+    <script src="/components/index/index.client.controller.js"></script>
+
+    <!-- Login -->
+    <script src="/components/login/login.client.controller.js"></script>
+
+</head>
+<body ng-app="retailApp">
+
+	<div class="container">
+    	<div ng-view></div>
+	</div>
+
+</body>
+</html>
+    
