@@ -44,9 +44,13 @@
 }
 
 #cart {
-  float: right;
-  width: 25%;
+  width: 285px;
+  position: fixed;
+  left: 50%;
+  margin-left: 285px;
+  box-sizing: border-box;
 }
+
 #cart-inner {
   border: 1px solid #ccc;
   padding: 1em;
