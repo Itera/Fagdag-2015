@@ -14,13 +14,13 @@ class ProductsController < ApplicationController
   def decrease_from_cart
     cart.decrease_product params[:id], params[:size]
 
-    redirect_to :root
+    redirect_to new_order_path
   end
 
   def remove_from_cart
     cart.remove_product params[:id], params[:size]
 
-    redirect_to :root
+    redirect_to new_order_path
   end
 
   private
