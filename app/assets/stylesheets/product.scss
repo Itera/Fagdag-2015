@@ -5,8 +5,27 @@
 .product-list {
   width: 100%;
 
-  img {
-    width: 15em;
+  li {
+    overflow: auto;
+    list-style-type: none;
+    position: relative;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #cccccc;
+    background-color: #fafafa;
+
+    img {
+      float: left;
+      width: 19em;
+      margin-right: 1em;
+      border: 1px solid #d8d8d8;
+      border-radius: 2px;
+    }
+
+    .price {
+      float: right;
+      font-size: 2em;
+    }
   }
 }
 
@@ -32,4 +51,12 @@
 
 #cart table {
   width: 100%;
+}
+
+select, input {
+  padding: 0.4em 1.2em;
+  border: 2px solid lighten(#ff8100, 30);
+  border-radius: 5px;
+  color: white;
+  background-color: #ff8100;
 }

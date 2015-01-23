@@ -4,35 +4,28 @@
   <% end %>
 </div>
 
-<table class="table product-list">
-  <thead>
-    <tr>
-      <th>Brand</th>
-      <th>Navn</th>
-      <th></th>
-      <th>Beskrivelse</th>
-      <th>Farge</th>
-      <th>Størrelser</th>
-      <th>Pris</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @products.each do |prod| %>
-    <tr>
-      <td><%=prod.brand%></td>
-    <td><%=prod.title%></td>
-    <td><img src="<%=image_path(prod.image)%>"></td>
-    <td><%=prod.description%></td>
-    <td><%=prod.color%></td>
-    <td><%=prod.size_min%> - <%=prod.size_max%></td>
-    <td><%=prod.price%></td>
-    <td>
-      <%= form_tag add_to_cart_path(prod), method: :post, remote: true, class: "add-product" do %>
-        <%= select_tag :size, options_for_select(prod.size_min..prod.size_max) %>
-        <%= submit_tag "Legg til" %>
-      <% end %>
-    </td>
-    <%end%>
-  </tbody>
-</table>
+<ul class="product-list">
+  <% @products.each do |prod| %>
+    <li>
+      <a href="<%=product_path(prod)%>">
+        <img src="<%=image_path(prod.image)%>">
+      </a>
+      <div class="text">
+        <h2>
+          <a href="<%=product_path(prod)%>">
+            <%=prod.title%>
+          </a>
+        </h2>
+        <h3><%=prod.brand%></h3>
+        <p>Farge: <%=prod.color%></p>
+      </div>
+      <div class="buy">
+        <span class="price"><%='%.02f' % prod.price%></span>
+        <%= form_tag add_to_cart_path(prod), method: :post, remote: true, class: "add-product" do %>
+          <%= select_tag :size, options_for_select(prod.size_min..prod.size_max) %>
+          <%= submit_tag "Legg til" %>
+        <% end %>
+      </div>
+    </li>
+  <%end%>
+</ul>
