@@ -6,6 +6,9 @@ var ProductSchema = new Schema({
 		type: String,
 		trim: true
 	},
+	id: {
+		type: Number
+	}
 	brand: {
 		type: String,
 		trim: true
@@ -13,6 +16,12 @@ var ProductSchema = new Schema({
 	description: {
 		type: String,
 		trim: true
+	},
+	minSize: {
+		type: Number
+	},
+	maxSize: {
+		type: Number
 	},
 	color: {
 		type: String,
