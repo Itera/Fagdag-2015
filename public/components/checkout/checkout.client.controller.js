@@ -22,13 +22,18 @@
                 }
             }
 
-            console.log(JSON.parse(window.localStorage['user']), 'lel');
+            items = items.map(function(item) {
+                return {
+                    product: item.product.id,
+                    count: item.count
+                };
+            });
+
             var order = {
                 customer: JSON.parse(window.localStorage['user']).user.id,
                 products: items
             };
 
-            console.log(order);
 
             CheckoutFactory.addOrder(order)
                 .success(function data() {
