@@ -14,6 +14,10 @@ class Cart
   def decrease_product(id, size)
     if cart.try(:[], id).try(:[], size)
       cart[id][size] -= 1
+
+      if cart[id][size].zero?
+        remove_product id, size
+      end
     end
   end
 
