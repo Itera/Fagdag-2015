@@ -181,6 +181,10 @@ a {
 	cursor: pointer;
 }
 
+.brand-chooser label:hover {
+color: #ccc;
+}
+
 .brand-chooser label input {
 	margin-left: 5px;
 }
