@@ -7,4 +7,4 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Product.delete_all
-Product.create(title: "Sko2", description: "hallo", stock:15, price: 99)
+Product.create(title: "Sko2", image: "image-path", description: "Dette er en god sko", stock:15, price: 99)

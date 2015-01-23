@@ -1,8 +1,21 @@
 <h1>Velkommen til Lille Vinkel skobutikk på nett!</h1>
 <h2>Den enkle måten å handle sko til hele familien.</h2>
 
-<ul>
+<table style="width:100%">
+  <tr bgcolor="#ccc">
+    <td>Navn</td>
+    <td>Beskrivelse</td>
+    <td>Pris</td>
+    <td>På lager</td>
+    <td></td>
+  </tr>
   <% @products.each do |prod| %>
-  <li><%=prod.title%> <%=prod.description%> <%=prod.stock%> <%=prod.price%></li>
+  <tr>
+    <td><%=prod.title%></td>
+    <td><%=prod.description%></td>
+    <td><%=prod.price%></td>
+    <td><%=prod.stock%></td>
+    <td><%=button_to "Kjøp"%></td>
+  </tr>
   <%end%>
-</ul>
+</table>
