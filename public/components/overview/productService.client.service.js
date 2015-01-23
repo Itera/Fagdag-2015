@@ -47,7 +47,16 @@
                 clearCart: function() {
                     cart = {};
                     window.localStorage.cart = '';
-                }
+                },
+
+                getBrandNames: function() {
+                    return Object.keys(Object.keys(products).map(function(id) {
+                        return products[id].brand;
+                    }).reduce(function(brands, brand) {
+                        brands[brand] = (brands[brand] || true);
+                        return brands;
+                    }, {}));
+                },
             };
         });
 })();

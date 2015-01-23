@@ -1,8 +1,17 @@
 <div ng-controller="IndexController as index">
-	<input ng-model='searchQuery' placeholder='Search products'>
-	<article ng-repeat="product in products | filter:searchQuery" class="product">
-		<h2>{{product.name}}</h2>
-		<img ng-src="https://raw.githubusercontent.com/Itera/fagdag-januar-2015/master/produkter/{{product.shoeId}}.jpg" alt="Not found">
-		<button ng-click='addProductToCart(product)'>Add to cart</button>
+	<div class="search-container">
+	<input ng-model="searchQuery" placeholder="Search products" type="text">
+	</div>
+	<div class="brand-chooser">
+		<strong>Brand</strong>
+		<label ng-repeat="brand in brandNames">{{brand}}<input type="checkbox" ng-model="chosenBrands[brand]"></label>
+	</div>
+	<article ng-repeat="product in products | filter:searchQuery | filter:filterBrands()" class="product">
+		<img ng-src="/img/products/{{product.shoeId}}.jpg" alt="Not found">
+		<div class="product-info">
+			<span class="favorite">&#9829;</span>
+			<p>{{product.brand}}</p>
+			<p>{{product.price}},-</p>
+		</div>
 	</article>
 </div>
