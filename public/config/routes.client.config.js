@@ -13,6 +13,9 @@
 				.when('/cart', {
 					templateUrl: 'components/cart/cart.client.view.html'
 				})
+				.when('/product-details/:id', {
+					templateUrl: 'components/product-details/product-details.client.view.html'
+				})
 				.otherwise({
 					redirectTo: '/'
 				});
