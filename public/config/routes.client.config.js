@@ -10,6 +10,9 @@
 				.when('/login', {
 					templateUrl: 'components/login/login.client.view.html'
 				})
+				.when('/register', {
+					templateUrl: 'components/register/register.client.view.html'
+				})
 				.when('/cart', {
 					templateUrl: 'components/cart/cart.client.view.html'
 				})

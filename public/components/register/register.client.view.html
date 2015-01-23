@@ -1,0 +1,25 @@
+<div ng-controller="RegisterController as register">
+	
+<div ng-show="register.error.flag">
+		<div class="alert">{{ register.error.message }}</div>
+	</div>
+	<form>
+		<div class="input-group">
+			<label for="registerFirstName">Fornavn: </label>
+			<input type="text" ng-model="register.user.firstName" name="registerFirstName"/>
+		</div>
+		<div class="input-group">
+			<label for="registerLastName">Etternavn: </label>
+			<input type="text" ng-model="register.user.lastName" name="registerLastName"/>
+		</div>
+		<div class="input-group">
+			<label for="registerEmail">Epost: </label>
+			<input type="text" ng-model="register.user.email" name="registerEmail"/>
+		</div>
+		<div class="input-group">
+			<label for="registerPassword">Passord: </label>
+			<input type="password" ng-model="register.user.password" name="registerPassword"/>
+		</div>
+		<button ng-click="register.createUser()">Registrer</button>
+	</form>
+</div>

@@ -1,5 +1,16 @@
 <div ng-controller="LoginController as login">
-	<h1>Login</h1>
-
-	<a href="/#/">Gå tilbake</a>
+	<div ng-show="login.error.flag">
+		<div class="alert">{{ login.error.message }}</div>
+	</div>
+	<form>
+		<div class="input-group">
+			<label for="loginUsername">Epost:</label>
+			<input name="loginUsername" type="text" ng-model="login.user.email" />	
+		</div>
+		<div class="input-group">
+			<label for="loginPassword">Passord:</label>
+			<input name="loginPassword" type="password" ng-model="login.user.password" />	
+		</div>
+		<button ng-click="login.signin()">Logg inn!</button>
+	</form>
 </div>
