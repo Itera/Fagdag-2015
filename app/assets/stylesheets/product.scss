@@ -3,8 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .product-list {
-  width: 100%;
   padding: 0;
+  width: 70%;
 
   li {
     overflow: auto;
@@ -39,6 +39,7 @@
 
 #cart {
   float: right;
+  width: 25%;
 }
 #cart-inner {
   border: 1px solid #ccc;
