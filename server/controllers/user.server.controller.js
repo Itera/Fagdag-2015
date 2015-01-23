@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var passport = require('passport');
+var deepPopulate = require('mongoose-deep-populate');
 var User = mongoose.model('User');
 var Order = mongoose.model('Order');
 var handleError = require('./errors.server.controller').handleError;
@@ -37,10 +38,13 @@ exports.create = function (req, res) {
 
 exports.listOrders = function (req, res) {
   var user = req.user;
-  Order.find({ customer: user._id }, function(err, orders) {
-    if (err) return handleError(res, err);
-    res.status(200).json(orders);
-  });
+  Order
+    .find({ customer: user._id })
+    .deepPopulate('products.product')
+    .exec(function(err, orders) {
+      if (err) return handleError(res, err);
+      res.status(200).json(orders);
+    });
 };
 
 exports.login = function(req, res, next) {
