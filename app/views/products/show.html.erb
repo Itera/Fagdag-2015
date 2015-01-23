@@ -1,0 +1,21 @@
+<div class="product">
+
+  <h1><%=@product.title%></h1>
+  <h2><%=@product.brand%></h1>
+
+  <img src="<%=image_path(@product.image)%>">
+
+  <p><%=@product.description%></p>
+
+  <p>Farge: <%=@product.color%></p>
+  <p>Størrelser: <%=@product.size_min%>-<%=@product.size_max%></p>
+  <p>Pris: <%=@product.price%></p>
+
+  <p>
+    <%= form_tag add_to_cart_product_path(@product), method: :post, remote: true do %>
+      <%= select_tag :size, options_for_select(@product.size_min..@product.size_max) %>
+      <%= submit_tag "Legg til" %>
+    <% end %>
+  </p>
+
+</div>

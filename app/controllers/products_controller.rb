@@ -5,6 +5,10 @@ class ProductsController < ApplicationController
     @cart = Cart.new session
   end
 
+  def show
+    @product = Product.find(params[:id])
+  end
+
   def add_to_cart
     cart.add_product params[:id], params[:size]
 
