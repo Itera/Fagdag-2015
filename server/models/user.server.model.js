@@ -30,9 +30,6 @@ var UserSchema = new Schema({
     }
 });
 
-UserSchema.pre('save', function (next) {
-});
-
 UserSchema.methods.hashPassword = function (password) {
 };
 

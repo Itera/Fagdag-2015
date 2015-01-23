@@ -15,6 +15,8 @@ module.exports = function () {
 
     require('../models/user.server.model');
     require('../models/products.server.model');
+    require('../models/item.server.model');
+    require('../models/order.server.model');
 
     return db;
 };
