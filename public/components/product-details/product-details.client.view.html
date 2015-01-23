@@ -1,6 +1,12 @@
-<div ng-controller="ProductDetailsController">
-	<H1>{{product.name}}</H1>
-	<img src="img/products/{{product.shoeId}}.jpg" height="300">
-	<div>Pris: {{product.price}}</div>
-	<div>{{product.description}}</div>
+<div ng-controller="ProductDetailsController" class="product-detail">
+	<img src="img/products/{{product.shoeId}}.jpg">
+	<div class="product-info">
+		<p>{{product.brand}}</p>
+		<p>{{product.price}},-</p>
+		<p>{{product.description}}</p>
+		<select>
+			<option selected>Velg str</option>
+		</select>
+		<button ng-click="addProductToCart(product)">Kjøp</button>
+	</div>
 </div>

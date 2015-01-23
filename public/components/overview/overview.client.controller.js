@@ -23,9 +23,5 @@
                     return brands;
                 }, {});
             });
-
-            $scope.addProductToCart = function(product) {
-                productService.addToCart(product);
-            };
         }]);
 })();
