@@ -1,5 +1,6 @@
 (function() {
 	angular
+		//.module('retailApp',['akreitals.panel-snap'])
 		.module('retailApp')
 		.config(function($locationProvider, $routeProvider) {
 			//$locationProvider.html5Mode(true);

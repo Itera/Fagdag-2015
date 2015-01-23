@@ -1,27 +1,38 @@
 <div ng-controller="IndexController as index">
 
-	<article ng-repeat="product in products | limitTo:2" class="product frontpage-top-2">
-			<img ng-src="https://raw.githubusercontent.com/Itera/fagdag-januar-2015/master/produkter/{{product.shoeId}}.jpg" alt="Not found">
+	<!--<ak-panel-group full-window="true">-->
 
-			<div class="frontpage-product-info">
-				<ul>
-					<li>{{product.brand}}</li>
-					<li>{{product.name}}</li>
-					<li>{{product.price}},-</li>
-				</ul>
-			</div>
-	</article>
 
-	<article ng-repeat="product in products | slice:2:6" class="product frontpage-bottom-4">
-		<img ng-src="https://raw.githubusercontent.com/Itera/fagdag-januar-2015/master/produkter/{{product.shoeId}}.jpg" alt="Not found">
+		<article ng-repeat="product in products | limitTo:2" class="product frontpage-top-2">
+			<!--<ak-panel>-->
+				<img ng-src="https://raw.githubusercontent.com/Itera/fagdag-januar-2015/master/produkter/{{product.shoeId}}.jpg" alt="Not found">
 
-		<div class="frontpage-product-info">
-			<ul>
-				<li>{{product.brand}}</li>
-				<li>{{product.name}}</li>
-				<li>{{product.price}},-</li>
-			</ul>
-		</div>
-	</article>
+				<div class="frontpage-product-info">
+					<ul>
+						<li>{{product.brand}}</li>
+						<li>{{product.name}}</li>
+						<li>{{product.price}},-</li>
+					</ul>
+				</div>
+			<!--</ak-panel>-->
+		</article>
+
+
+
+		<!--<ak-panel>-->
+		<!--<article ng-repeat="product in products | slice:2:6" class="product frontpage-bottom-4">-->
+		<!--<img ng-src="https://raw.githubusercontent.com/Itera/fagdag-januar-2015/master/produkter/{{product.shoeId}}.jpg" alt="Not found">-->
+
+		<!--<div class="frontpage-product-info">-->
+		<!--<ul>-->
+		<!--<li>{{product.brand}}</li>-->
+		<!--<li>{{product.name}}</li>-->
+		<!--<li>{{product.price}},-</li>-->
+		<!--</ul>-->
+		<!--</div>-->
+		<!--</article>-->
+		<!--</ak-panel>-->
+
+	<!--</ak-panel-group>-->
 
 </div>
