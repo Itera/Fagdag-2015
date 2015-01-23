@@ -19,7 +19,7 @@ var ProductSchema = new Schema({
 		trim: true
 	},
 	price: {
-		type: Number	
+		type: Number
 	}
 });
 
@@ -28,4 +28,4 @@ ProductSchema.set('toJSON', {
     virtuals: true
 });
 
-mongoose.model('Products', ProductSchema);
+mongoose.model('Product', ProductSchema);
