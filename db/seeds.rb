@@ -40,3 +40,16 @@ end
 
 Product.delete_all
 Product.create(products.values)
+
+User.delete_all
+h = User.create(name:"Haakon")
+j = User.create(name:"Jonas")
+t = User.create(name:"Trygve")
+p = User.create(name:"Peter")
+
+Order.delete_all
+o = Order.create ()
+h.orders.append(o)
+
+OrderLine.delete_all
+ol = OrderLine.create(product: Product.all[0], order: o, size: 44, count: 1)

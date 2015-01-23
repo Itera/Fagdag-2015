@@ -10,4 +10,7 @@ Rails.application.routes.draw do
   resources :orders
 
   root "products#index"
+
+  get "users"    => "users#index"
+  get "orders"   => "orders#index"
 end
