@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 import_path = 'db/import_data/produkter'
-assets_path = 'vendor/assets/images'
+assets_path = 'app/assets/images'
 
 products = {}
 
