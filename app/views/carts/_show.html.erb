@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th>Produkt</th>
+    <th>Størrelse</th>
+    <th>Antall</th>
+  </tr>
+
+  <% @cart.products.each do |product, size, count| %>
+    <tr>
+      <td><%= product.title %></td>
+      <td><%= size %></td>
+      <td><%= count %></td>
+    </tr>
+  <% end %>
+</table>

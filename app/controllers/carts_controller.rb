@@ -1,4 +1,10 @@
 class CartsController < ApplicationController
+  def show
+    @cart = cart
+
+    render "_show", layout: false
+  end
+
   def add_to
     cart.add_product params[:id], params[:size]
 
