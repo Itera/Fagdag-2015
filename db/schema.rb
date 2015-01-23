@@ -24,8 +24,12 @@ ActiveRecord::Schema.define(version: 20150123120121) do
 
   create_table "orders", force: :cascade do |t|
     t.integer  "user_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "credit_card"
+    t.integer  "exp_month"
+    t.integer  "exp_year"
+    t.integer  "cc"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "products", force: :cascade do |t|
