@@ -12,6 +12,6 @@ router.param('id', user.load);
 router.route('/:id')
   .get(user.retrieve);
 
-router.get('/:id/order', user.listOrders);
+router.get('/:id/orders', user.listOrders);
 
 module.exports = router;
