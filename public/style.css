@@ -114,6 +114,10 @@ img {
 	font-size: 22px;
 }
 
+.categories a:hover {
+	color: #ccc;
+}
+
 .icon-nav {
 	display: table-cell;
 	text-align: right;
