@@ -1,7 +1,6 @@
 var morgan = require('morgan'),
 	bodyParser = require('body-parser'),
-	express = require('express'),
-	routes = require('../routes');
+	express = require('express');
 
 module.exports = function() {
 	var app = express();
@@ -20,7 +19,7 @@ module.exports = function() {
 	app.set('view engine', 'ejs');
 
 	// Router
-	app.use('/', routes);
+	app.use('/', require('../routes'));
 
 	app.use(express.static('./public'));
 
