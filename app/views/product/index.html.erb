@@ -3,20 +3,24 @@
 
 <table style="width:100%">
   <tr bgcolor="#ccc">
+    <td>Brand</td>
     <td>Navn</td>
     <td></td>
     <td>Beskrivelse</td>
+    <td>Farge</td>
+    <td>Størrelser</td>
     <td>Pris</td>
-    <td>På lager</td>
     <td></td>
   </tr>
   <% @products.each do |prod| %>
   <tr>
+    <td><%=prod.brand%></td>
     <td><%=prod.title%></td>
     <td><img src="<%=image_path(prod.image)%>"></td>
     <td><%=prod.description%></td>
+    <td><%=prod.color%></td>
+    <td><%=prod.size_min%> - <%=prod.size_max%></td>
     <td><%=prod.price%></td>
-    <td><%=prod.stock%></td>
     <td><%=button_to "Kjøp"%></td>
   </tr>
   <%end%>
