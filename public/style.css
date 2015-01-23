@@ -28,6 +28,7 @@ header {
 	background: #111;
 	height: 80px;
 	line-height: 80px;
+	table-layout: fixed;
 }
 
 h1 {
