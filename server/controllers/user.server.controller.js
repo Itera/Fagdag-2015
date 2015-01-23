@@ -46,7 +46,11 @@ exports.listOrders = function (req, res) {
 exports.login = function(req, res, next) {
   passport.authenticate('local', function(err, user) {
     if (err) return next(err);
-    if (!user) return res.redirect('/login');
+    if (!user) {
+      return res.status(401).json({
+        message: 'Invalid credentials.'
+      });
+    }
 
     req.logIn(user, function(err) {
       if (err) return next(err);
