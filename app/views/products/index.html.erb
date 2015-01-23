@@ -22,7 +22,7 @@
     <td><%=prod.size_min%> - <%=prod.size_max%></td>
     <td><%=prod.price%></td>
     <td>
-      <%= form_tag add_to_cart_product_path(prod), method: :post, remote: true do %>
+      <%= form_tag add_to_cart_path(prod), method: :post, remote: true do %>
         <%= select_tag :size, options_for_select(prod.size_min..prod.size_max) %>
         <%= submit_tag "Legg til" %>
       <% end %>

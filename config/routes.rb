@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
-  resources :products do
+  resources :carts do
     member do
-      post "add_to_cart"
-      post "decrease_from_cart"
-      post "remove_from_cart"
+      post "add_to"
+      post "decrease_from"
+      post "remove_from"
     end
   end
 
+  resources :products
   resources :orders
 
   root "products#index"
