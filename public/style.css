@@ -17,16 +17,19 @@ body {
 }
 
 header {
-	padding: 40px;
 	display: table;
 	width: 100%;
 	background: #111;
+	height: 80px;
+	line-height: 80px;
 }
 
 h1 {
 	text-transform: uppercase;
 	font-weight: 700;
 	display: table-cell;
+	padding-left: 20px;
+	vertical-align: middle;
 }
 
 h1 a {
@@ -47,7 +50,7 @@ input[type=text] {
 
 .product {
 	display: inline-block;
-	width: 33%;
+	width: 50%;
 	padding: 10px;
 	position: relative;
 }
@@ -72,6 +75,8 @@ img {
 
 .categories {
 	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .categories li {
@@ -81,7 +86,6 @@ img {
 }
 
 .categories a {
-	margin-right: 2px;
 	padding: 5px 10px;
 	color: #eee;
 	font-weight: 300;
@@ -96,27 +100,27 @@ img {
 
 .icon-nav li {
 	display: inline-block;
-	border-left: 1px solid #ddd;
+	border-left: 1px solid #222;
 }
 
 .icon-nav a {
-	width: 32px;
-	height: 32px;
+	width: 100px;
+	height: 80px;
 	display: inline-block;
-	background-size: cover;
+	background-size: 50px;
 	margin-left: 10px;
 }
 
 .mysite-icon {
-	background: url('/img/icons/Login_register.png') no-repeat;
+	background: url('/img/icons/Login_register.png') center 30px no-repeat;
 }
 
 .cart-icon {
-	background: url('/img/icons/Shopping_bag.png') no-repeat;
+	background: url('/img/icons/Shopping_bag.png') center 30px no-repeat;
 }
 
 .search-icon {
-	background: url('/img/icons/Search.png') no-repeat;
+	background: url('/img/icons/Search.png') center 30px no-repeat;
 }
 
 a {

@@ -6,6 +6,8 @@
             $scope.product = productService.findById($routeParams.id);
           });
 
+          productService.fetch();
+
           $scope.addProductToCart = function(product) {
               productService.addToCart(product);
           };

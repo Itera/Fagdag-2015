@@ -6,6 +6,8 @@
             $scope.searchQuery = '';
             $scope.chosenBrands = {};
 
+            productService.fetch();
+
             $scope.filterBrands = function() {
                 return function(p) {
                     for (var brand in $scope.chosenBrands) {
