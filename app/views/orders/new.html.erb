@@ -7,8 +7,8 @@
     <% @cart.products.each do |product, size, amount| %>
       <li>
         <%= product.title %> (størrelse <%= size %>): <%= amount %>
-        <%= button_to "Fjern én", decrease_from_cart_product_path(1, size: size) %>
-        <%= button_to "Fjern alle", remove_from_cart_product_path(1, size: size) %>
+        <%= button_to "Fjern én", decrease_from_cart_product_path(product, size: size) %>
+        <%= button_to "Fjern alle", remove_from_cart_product_path(product, size: size) %>
       </li>
     <% end %>
   </ul>
