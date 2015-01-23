@@ -258,3 +258,16 @@ button {
 	background: #fff;
 	padding: 0 40px;
 }
+
+@media (max-width: 640px) {
+	header {
+		text-align: center;
+	}
+	.categories {
+		display: none;
+	}
+	.icon-nav {
+		display: none;
+	}
+}
+
