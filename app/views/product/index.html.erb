@@ -4,6 +4,7 @@
 <table style="width:100%">
   <tr bgcolor="#ccc">
     <td>Navn</td>
+    <td></td>
     <td>Beskrivelse</td>
     <td>Pris</td>
     <td>På lager</td>
@@ -12,6 +13,7 @@
   <% @products.each do |prod| %>
   <tr>
     <td><%=prod.title%></td>
+    <td><img src="<%=image_path(prod.image)%>"></td>
     <td><%=prod.description%></td>
     <td><%=prod.price%></td>
     <td><%=prod.stock%></td>
