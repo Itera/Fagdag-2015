@@ -23,7 +23,9 @@ exports.retrieve = function(req, res) {
 
 exports.create = function(req, res) {
   var order = req.body;
+  console.log('lel', order);
   Order.create(order, function(err, createdOrder) {
+    console.log('created', createdOrder);
     if (err) return handleError(res, err);
     createdOrder.deepPopulate('products.product', function(err, populated) {
       if (err) return handleError(res, err);

@@ -3,9 +3,9 @@
         .module('retailApp')
         .controller('LoginController', LoginController);
 
-    LoginController.$inject = ['LoginFactory'];
+    LoginController.$inject = ['LoginFactory', '$rootScope'];
 
-    function LoginController(LoginFactory) {
+    function LoginController(LoginFactory, $rootScope) {
     	var login = this;
 
     	login.error = {
@@ -18,6 +18,8 @@
     	function signin () {
     		LoginFactory.login(login.user)
     			.success(function(data) {
+                    window.localStorage['user'] = JSON.stringify(data);
+                    console.log(data);
     			})
     			.error(function(err){
     				login.error.flag = true;

@@ -26,6 +26,12 @@
 				.when('/my-page', {
 					templateUrl: 'components/my-page/my-page.client.view.html'
 				})
+				.when('/checkout', {
+					templateUrl: 'components/checkout/checkout.client.view.html'
+				})
+				.when('/checkout/success', {
+					templateUrl: 'components/success/success.client.view.html'
+				})
 				.otherwise({
 					redirectTo: '/'
 				});

@@ -1,0 +1,9 @@
+<div ng-controller="CheckoutController as checkout">
+	<label for="checkoutPayment">Betalingsmåte:</label>
+	<select name="checkoutPayment" ng-model="checkout.paymentmethod">
+		<option selected="selected"> Klarna Faktura </option>
+		<option> Klarna Konto </option>
+		<option> Kortbetaling </option>
+	</select>
+	<button type="button" ng-click="checkout.addOrder()">Bestill</button>
+</div>
