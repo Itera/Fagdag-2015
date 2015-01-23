@@ -14,6 +14,7 @@
   </ul>
   <br>
   <%= form_for @order do |f| %>
+    <%= f.select "user_id", options_from_collection_for_select(@users, "id", "name") %>
     <%= f.label :credit_card %>:
     <%= f.text_field :credit_card, size: 16 %><br />
     <%= f.label "Utløp" %>:

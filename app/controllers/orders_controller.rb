@@ -2,6 +2,7 @@ class OrdersController < ApplicationController
   def new
     @cart = Cart.new session
     @order = Order.new
+    @users = User.all
   end
 
   def index
@@ -9,7 +10,6 @@ class OrdersController < ApplicationController
   end
   def create
     @order = Order.new(order_params)
-    @order.user = User.all[0]
     @order.save
     cart = Cart.new session
     cart.products.each do |prod, size, amount|
@@ -20,6 +20,6 @@ class OrdersController < ApplicationController
     redirect_to(orders_path)
   end
   def order_params
-    params.permit(:credit_card, :exp_month, :exp_year, :cc)
+    params.require(:order).permit(:credit_card, :exp_month, :exp_year, :cc, :user_id)
   end
 end
