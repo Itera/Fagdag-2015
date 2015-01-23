@@ -21,7 +21,7 @@
     <td><%=prod.color%></td>
     <td><%=prod.size_min%> - <%=prod.size_max%></td>
     <td><%=prod.price%></td>
-    <td><%=button_to "Kjøp"%></td>
+    <td><%=button_to "Legg til", add_to_cart_product_path(1, size: 42)%></td>
   </tr>
   <%end%>
 </table>
