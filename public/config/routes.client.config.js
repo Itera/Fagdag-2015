@@ -16,7 +16,10 @@
 				.when('/cart', {
 					templateUrl: 'components/cart/cart.client.view.html'
 				})
-				.when('/product-details/:id', {
+				.when('/products', {
+					templateUrl: 'components/overview/overview.client.view.html'
+				})
+				.when('/products/:id', {
 					templateUrl: 'components/product-details/product-details.client.view.html'
 				})
 				.otherwise({
@@ -24,7 +27,6 @@
 				});
 		})
 		.run(function(productService) {
-			console.log('fooo')
 			productService.fetch();
 		});
 })();
