@@ -1,0 +1,1162 @@
+[
+  {
+    "shoeId": "1",
+    "price": "1149",
+    "name": "Sporty overgangssko",
+    "description": "Ta barnefotens raske utvikling på alvor. Lett og bøyelig overgangssko med Sympatex – en tynn og vanntett membran som holder de aktive barneføttene tørre, samtidig som de får puste. Med målesålen sjekker du at skoen passer. Borrelås og hempe gjør den enkel å ta av og på.",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "39",
+    "maxSize": "39"
+  },
+  {
+    "shoeId": "100",
+    "price": "679",
+    "name": "Knehøyt er tilbake",
+    "description": "Knehøye støvletter suste for alvor inn i motebildet i Mad Men-tiden på 50- og 60-tallet, en tid som igjen setter sitt elegante preg på motebildet. Glidelås ved ankel-kulen. Elastikk på hele bakstykket. Enkel å ta på. Fin, smal passform. Knehøye støvletter tilfører ethvert antrekk det lille, store ekstra. ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "46",
+    "maxSize": "46"
+  },
+  {
+    "shoeId": "102",
+    "price": "849",
+    "name": "Militærstilig",
+    "description": "En snev av 50-tallsboot og army-look, men nettere og mykere, og fin til et bredt spekter av antrekk. Heftig snørestøvel i skinn og med tåkapp-søm. En kraftig, men allikevel elgant såle med god gripeevne. Hempe bak, som lar deg enkelt ta støvelen på. ",
+    "brand": "Softwalk",
+    "color": "Hvit",
+    "minSize": "35",
+    "maxSize": "35"
+  },
+  {
+    "shoeId": "103",
+    "price": "1149",
+    "name": "Kul og komfortabel",
+    "description": "En sko for både jobb og fest, og til bukser og til skjørt. Svært god passform, med komfortabel elastikk på utsiden og en praktisk glidelås på innsiden. Den fine hælhøyden på 3 cm gjør at du gå med den hele dagen, og bidrar til god balanse og holdning i kroppen.",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "36",
+    "maxSize": "36"
+  },
+  {
+    "shoeId": "105",
+    "price": "399",
+    "name": "Trendy og tett",
+    "description": "Denne sko-stilen oppsto i Australia og New Zealand på 60-tallet og har nå erobret hele verden. Vår utgave av den trendy støvletten har en viktig egenskap som skiller den fra flere lignende modeller: Mellom fôret og skostoffet er det en membran som gjør den vanntett. Den er lett, myk og varm.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "29",
+    "maxSize": "29"
+  },
+  {
+    "shoeId": "107",
+    "price": "249",
+    "name": "Vinterens allrounder",
+    "description": "Godt, solid skotøy for vinteren, kan også være vakkert, noe denne støvelen er et eksempel på. Deilig og myk. Ikke for høy. Snøring som bidrar til at den sitter optimalt på foten. Varmfôret og med myk kant. Den hvite sålen har god gripeevne. Med denne har du skaffet deg vinterens allrounder. ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "44",
+    "maxSize": "44"
+  },
+  {
+    "shoeId": "11",
+    "price": "599",
+    "name": "Min første sko",
+    "description": "Sporty, tøff og lett på foten for de minste. Borrelås og strikk gjør denne førstegangsskoen lett å få av og på. Det deilige teddyfôret med den myke kanten holder føttene varme. Høy, god støtte og god plass til tærne – viktig for små føtter i vekst.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "22",
+    "maxSize": "29"
+  },
+  {
+    "shoeId": "115",
+    "price": "479",
+    "name": "Party-skolett",
+    "description": "Med denne trenger du ikke ekstra skoskift når du skal avgårde på fest i ruskevær. Elegant skinnskolett i ankelhøyde, med et snev av plattform/platå. V-formet hæl på xx cm. Komfortabel elastikk på utsiden og en praktisk glidelås på innsiden. Skinnfôret og med innersåle i skinn.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "36",
+    "maxSize": "43"
+  },
+  {
+    "shoeId": "117",
+    "price": "599",
+    "name": "Høy på hverdager",
+    "description": "Knehøye støvletter suste for alvor inn i motebildet i Mad Men-tiden på 50- og 60-tallet, en tid som igjen setter sitt stilige preg på motebildet. Klassisk og elegant hverdagsstøvel, men med en rett hæl som gir et noe røffere uttrykk. Glidelås på innsiden. Prøv den til tweed-skjørtet!",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "49",
+    "maxSize": "49"
+  },
+  {
+    "shoeId": "118",
+    "price": "999",
+    "name": "Konjakk for kulda",
+    "description": "En konjakkfarget snørestøvlett, en såkalt \"lace up\", som er bra mot kulda! Er du varm på føttene, hjelper det på varmen i resten av kroppen også. Varmtfôret, med en myk og behagelig skotunge. Hempen bidrar til at du får den enkelt på. Helstøpt såle med god gripeevne på glatt vinterføre.",
+    "brand": "Nike",
+    "color": "Rød",
+    "minSize": "46",
+    "maxSize": "46"
+  },
+  {
+    "shoeId": "12",
+    "price": "1179",
+    "name": "Høst-bling",
+    "description": "Med denne føler jentene seg både pyntet og varme på beina. Hjerteformet, herlig bling. Hele denne vanntette og varmtfôrede skoletten er i skinn. Glidelås gjør den lett å ta av og på. Den solide sålen gir god gripeevne på glatt føre.  ",
+    "brand": "Softwalk",
+    "color": "Hvit",
+    "minSize": "39",
+    "maxSize": "39"
+  },
+  {
+    "shoeId": "122",
+    "price": "499",
+    "name": "Bestselgende allrounder",
+    "description": "Den perfekte skinnstøvletten til hverdagsbruk, når det blir kaldere i været. En av våre store kundefavoritter! Og det er ikke rart. Den har god passform, er fleece-fôret, og har praktiske glidelåser både bak og på innsiden. Stødig, flott hæl på xx cm. som gir fin holdning og balanse. ",
+    "brand": "Echo",
+    "color": "Blå",
+    "minSize": "33",
+    "maxSize": "34"
+  },
+  {
+    "shoeId": "123",
+    "price": "799",
+    "name": "En klassiker",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelse. Mykt, deilig skinn og varmtfôret. Den karakteristiske elastikken på siden, og glidelåsen på innsiden, gjør den lett å ta av og på. Spesielt fin til smale skjørt.",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "35",
+    "maxSize": "35"
+  },
+  {
+    "shoeId": "124",
+    "price": "599",
+    "name": "Chelsea with a twist",
+    "description": "Chelsea-boots inntok for alvor motescenen som fottøyet i den britiske mod-bevegelsen på 60-tallet. Denne utgaven kommer med en fin vri; stilige remmer over den karakteristiske elastikken. Praktisk glidelås på innsiden for å få den enkelt på og av. Kraftig, helstøpt såle med god gripeevne.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "34",
+    "maxSize": "34"
+  },
+  {
+    "shoeId": "126",
+    "price": "499",
+    "name": "Absolutt vinter",
+    "description": "Den ultimate vinterskoen for damer, i kraftig skinn som tåler en støyt i den omskriftelige og harde norske vinteren. Deilig og varm, med fôr i ekte lammeskinn. Solid, helstøpt såle med god gripeevne. Fin glidelås-dekor. Flate lisser med snøring på ytter-hempe. ",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "29",
+    "maxSize": "29"
+  },
+  {
+    "shoeId": "127",
+    "price": "849",
+    "name": "Spennende vinter",
+    "description": "Stilige, justerbare biker-spenner gjør bare vinteren enda mer spennende! God, solid vintersko i kraftig skinn som tåler en støyt i den omskriftelige og harde norske vinteren. Deilig og varm, med fôr i ekte lammeskinn. Solid, helstøpt såle med god gripeevne. Praktisk glidelås på innsiden. ",
+    "brand": "Softwalk",
+    "color": "Grønn",
+    "minSize": "29",
+    "maxSize": "49"
+  },
+  {
+    "shoeId": "13",
+    "price": "449",
+    "name": "Litt voksen",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelsen. Med denne føler barna seg litt voksne! Myk, varmtfôret og perfekt for norsk høstvær. Den karakteristiske elastikken på siden gjør den lett å ta av og på.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "35",
+    "maxSize": "35"
+  },
+  {
+    "shoeId": "132",
+    "price": "879",
+    "name": "Hverdagsfin",
+    "description": "Hva med en snev fransk look på jobben? Skoen har heller ikke noe imot å bli tatt med på fest. En allsidig sko i semsket skinn med elegant kjettingdetalj. G-lest inni, som er litt videre enn vanlig. Svært behagelig, med heltrukket kilehæl. Myk og fleksibel såle. ",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "20",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "136",
+    "price": "599",
+    "name": "Spa for foten",
+    "description": "Sliten i beina? Vi du ha sko som er maksimalt behagelige? Her er skoen for damer som setter komfort i høysetet. Skoen er laget i mykt skinn fra ytterst til innerst. Borrelåsene gjør at den sitter stødig på. Kilehælen gir deg en god holdning, slik at du både føler deg bra og ser bra ut.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "27",
+    "maxSize": "48"
+  },
+  {
+    "shoeId": "139",
+    "price": "449",
+    "name": "Pumps-bestselgeren",
+    "description": "Pur sko-kjærlighet! Deilige skinnpumps som også har plassert seg på bestselgerlisten vår. Som eleganse-krydder er den tilført et snev plattform/platå. XX cm. hæl. Myk indresåle. Denne kommer du til å bruke både til hverdags og fest. Til elegante kvinner i alle aldre.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "47",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "142",
+    "price": "1149",
+    "name": "Basket-tak mot ruskevær",
+    "description": "Myk og robust basket-sko med deilig varmtfôr som hjelper føttene i basketaket mot ruskeværet. Solid, stripete såle med god gripeevne. Dekorspenne og -glidelås på yttersiden. Praktisk glidelås på innsiden som gjør den enkel å ta på og av. En walkabout-sko som gjør deg hverdags-fresh.",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "23",
+    "maxSize": "28"
+  },
+  {
+    "shoeId": "145",
+    "price": "699",
+    "name": "Snowjog for alle",
+    "description": "Elegant snøstøvel for kvinner som vi gå en komfortabel vinter i møte. Med Sympatex – en tynn og vanntett membran som holder føttene tørre, samtidig som de får puste. God bredde og passform. Deilig, varm støtte rundt anklene. Varmtfôret og med god gripeevne på vinterføret.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "29",
+    "maxSize": "34"
+  },
+  {
+    "shoeId": "15",
+    "price": "999",
+    "name": "Pensko til små prinsesser",
+    "description": "Lett tekstilsko med god passform og – viktigst – stjerne-bling på tåa! Stroppen over vristen tilfører ikke bare viktig prinsesse-eleganse men er også til for bedre komfort. Dessuten sitter skoen bedre på når festen tar av! ",
+    "brand": "Echo",
+    "color": "Blå",
+    "minSize": "25",
+    "maxSize": "35"
+  },
+  {
+    "shoeId": "151",
+    "price": "299",
+    "name": "Alt-i-ett-boots",
+    "description": "Folkelig og trendy, i godt skinn og med god passform. Spennende spenne-detaljer på utsiden og praktisk glidelås på innsiden. Hempe bak som lar deg ta den enkelt på. Rund tupp, behagelig for tærne. Fin, stabiliserende hælhøyde på xx cm. Fôret. For høst og vinter, inne som ute.  ",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "30",
+    "maxSize": "30"
+  },
+  {
+    "shoeId": "154",
+    "price": "579",
+    "name": "City cowgirl",
+    "description": "Tøft og børstet skinn som gir skoen liv i overflaten en røff touch til elegansen. Chunky, solid hæl på xx cm. Varmtfôret og med en praktisk glidelås på utsiden. Her er det lagt stor vekt på passform og kvalitet. En flott, brun støvel som gjør seg godt sammen med både jeans og skjørt.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "44",
+    "maxSize": "44"
+  },
+  {
+    "shoeId": "156",
+    "price": "999",
+    "name": "Riding high",
+    "description": "Knehøye støvletter suste for alvor inn i motebildet i Mad Men-tiden på 50- og 60-tallet, en tid som igjen setter sitt preg på motebildet. Mykt, fint skinn, elastikk bak og praktisk glidelås på innsiden. Fôret. Den fine hælhøyden på xx gjør den deilig å gå i hele dagen. Prøv den med svart skjørt!",
+    "brand": "Echo",
+    "color": "Rød",
+    "minSize": "22",
+    "maxSize": "39"
+  },
+  {
+    "shoeId": "162",
+    "price": "1149",
+    "name": "Det ekstra paret",
+    "description": "Når du trenger det ekstra paret med sneakers som bare må stå klare, er det disse du går til anskaffelse av. Sporty hopp-rett-opp-i-sko. Disse hverdagsskoene er superfine når det blir litt mer gufsent i luften. For fritids- og skolebruk. En god overgangssko for føtter som fremdeles vokser. ",
+    "brand": "Echo",
+    "color": "Blå",
+    "minSize": "27",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "166",
+    "price": "599",
+    "name": "For fritid- og skole",
+    "description": "Varier fottøyet med et ekstra par basket-sko. Praktiske hverdagssko for fritids- og skolebruk. God, myk basket-såle. Snøring hele veien opp bidrar til at de sitter perfekt på. Varmtfôret og med myk kant rundt for god ankel-komfort. Fine søm- og tøydetaljer. ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "47",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "171",
+    "price": "999",
+    "name": "Semsket Chelsea",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelsen. Den karakteristiske elastikken gjør skoene enkle å ta av og på. Semsket skinn og god passform. Snasne sømdetaljer. Hempe bak for å ta den enkelt på.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "35",
+    "maxSize": "35"
+  },
+  {
+    "shoeId": "1711",
+    "price": "349",
+    "name": "Fargerik på gråværsdager",
+    "description": "Denne vinteren henger ikke folk med hodet, det ser bare sånn ut fordi de ser på støvlene til alle de som går rundt med disse! Rosa, lilla og you name it. Spennende spenne-detaljer. Refleks på hælen for ekstra trygghet. Uttagbar innesåle og en yttersåle med ekstremt god gripeevne. ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "24",
+    "maxSize": "24"
+  },
+  {
+    "shoeId": "172",
+    "price": "479",
+    "name": "Myk og vannavstøtende",
+    "description": "Ta dem på og spaser mykt inn i høsten uten å bli våt på beina. Den smarte Tex-mebranen gjør skoen vannavstøtende. En deilig skinnsko med både god passform og bredde. Fleksibel gummisåle. Polstring rundt ankelen for ekstra god komfort. Solid såle med god gripeevne.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "35",
+    "maxSize": "35"
+  },
+  {
+    "shoeId": "1734",
+    "price": "349",
+    "name": "Anvendelig gummi-støvlett",
+    "description": "En anstrøk Chelsea-sko, rideskoen fra viktoriatiden som ble en del av 60-tallets motebilde og som nå er hot igjen! Den karakteristiske elastikken gjør den enkel å ta av og på. Kraftig gummi-støvlett med deilig teddyfôr. Solid såle med god gripeevne. Super enten du luker i hagen eller skal på bytur.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "47",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "174",
+    "price": "749",
+    "name": "Voksen hverdag",
+    "description": "En super og praktisk hverdagssko for voksne karer. God passform og bredde. Mokasin-look. Skinn med fin tekstur. Fine sømdetaljer. Smart elastikk over vristen gjør den enkel å ta av og på. Polstring rundt kanten for ekstra god komfort. Solid såle med god gripeevne.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "46",
+    "maxSize": "46"
+  },
+  {
+    "shoeId": "1751",
+    "price": "679",
+    "name": "Helårs gummistøvel",
+    "description": "Det er bare å ta på seg raggsokkene, hoppe i støvlene og dra på fisketur. Romslig og god gummistøvel. Passer hele året og over alt. På tur, på hytta, i båten og i hagen. You name it. God høyde på skaftet og med justerbar spenne. Såle med godt grep. ",
+    "brand": "Nike",
+    "color": "Rød",
+    "minSize": "47",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "1763",
+    "price": "949",
+    "name": "Scorer uansett vær",
+    "description": "Vann og våt snø skal ikke sette en stopper for utfoldelsesgleden! Støvel med robust og god såle. Tåen er forsterket og klar for fotball. Den er enkel å komme opp i og ut av, og en praktisk hempe er også til hjelp. Uttagbar såle. Refleks langs kanten for ekstra sikkerhet på veien.",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "28",
+    "maxSize": "39"
+  },
+  {
+    "shoeId": "1783",
+    "price": "1299",
+    "name": "Rocke-boots",
+    "description": "Boots i matt 50-tallslook som tåler det meste! Den ultimate rockefestival-støvelen. God, myk og med teddyfôr. Snøring helt opp gjør at den sitter perfekt på. Hempe bak for å få den enkelt på. Solid gummisåle. God å gå i hele dagen – og natta.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "35",
+    "maxSize": "35"
+  },
+  {
+    "shoeId": "18",
+    "price": "679",
+    "name": "Sløyfe, ikke bare for håret",
+    "description": "Prinsesse-følelsen trenger ikke sløyfes selv om man skal ut i ruskeværet. Tykt og deilig varmtfôr. Høy og stødig, med god gripeevne på glatt føre. På innsiden har denne trendy jentestøvelen glidelås som gjør den enkel å ta av og på.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "38",
+    "maxSize": "45"
+  },
+  {
+    "shoeId": "180",
+    "price": "449",
+    "name": "Helt på track",
+    "description": "Ut på tur, aldri sur. Spesielt på grunn av Sympatex, en tynn og vanntett membran i skoene som holder føttene tørre, samtidig som de får puste. God, kraftig såle. Høy, med god ankelstøtte. Polstret og fôret for ekstra komfort. Forsterket tåparti. En super turvenn i skog og mark.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "23",
+    "maxSize": "30"
+  },
+  {
+    "shoeId": "186",
+    "price": "679",
+    "name": "Klassisk herremokasin",
+    "description": "Dette er stayer av en sko som aldri går av moten! En mokasin som er herlig myk over det hele: Myk såle og mykt skinn. For voksne herrer som vil ha en god sko som som det er lett å komme opp i og lett å komme ut av. Yttersåle med godt grep.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "26",
+    "maxSize": "49"
+  },
+  {
+    "shoeId": "189",
+    "price": "1199",
+    "name": "Chelsea-bestselger",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelsen. Den karakteristiske elastikken, her med skinnstriper, gjør skoene enkle å ta av og på. Skinnfôret. Kul randsøm-look. Ekslusiv finish i børstet, mørkebrunt skinn.",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "28",
+    "maxSize": "49"
+  },
+  {
+    "shoeId": "19",
+    "price": "279",
+    "name": "Barnas egen boots",
+    "description": "Litt voksen, uansett vær! Snasne voksen-boots i barneutgave. Tykk, robust såle. Glidelåsen på innsiden og den trendy, tofargede lissestrikken på utsiden, gjør den enkel å ta av og på. Stødig og god rundt ankelen.",
+    "brand": "Nike",
+    "color": "Svart",
+    "minSize": "20",
+    "maxSize": "31"
+  },
+  {
+    "shoeId": "1942",
+    "price": "379",
+    "name": "Perfekt i slapsevær",
+    "description": "Gummistøvel med super passform og i lett, myk og miljøvennlig polyuretan (PU). Varmtfôret holder beina varme i temperaturer helt ned til minus 20 grader. Både varmtfôret og innersålen kan tas ut og vaskes. Yttersålen har god gripeevne. Refleks bak på ankelen for ekstra sikkerhet.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "26",
+    "maxSize": "38"
+  },
+  {
+    "shoeId": "2002",
+    "price": "649",
+    "name": "Bare sexy",
+    "description": "Aircondition, please! Med disse på stiger temperaturen i rommet! Deilig lær over det hele. Glamorøs ankelrem. Sexy stiletthæl på xx cm. Med hel tåkappe, for en litt bluferdighet. Til skjørt og trange bukser. Gjør venninnene dine litt misunnelige – og den du vil ha, din.  ",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "49",
+    "maxSize": "49"
+  },
+  {
+    "shoeId": "2003",
+    "price": "679",
+    "name": "Danseløvinnens førstevalg",
+    "description": "Stilletten på xx cm løfter deg opp og gir deg \"tupp\" bak, samtidig som den lave ankelen på disse ustyrlig lekre selskaps-støvlettene gir beina lengde. Deilig skinn. Praktisk glidelås på innsiden. Unik, myk såle. Tærne hviler så godt på underlaget sitt du kan danse i skoene hele natten.",
+    "brand": "Echo",
+    "color": "Blå",
+    "minSize": "41",
+    "maxSize": "41"
+  },
+  {
+    "shoeId": "2004",
+    "price": "1149",
+    "name": "Chelsea med crêpe",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelsen. Den karakteristiske elastikken gjør den enhel å ta på og av. Semsket skinn. Kommer også i blå! Slitesterk ytersåle i crêpe, en solid form for naturgummi.",
+    "brand": "Nike",
+    "color": "Svart",
+    "minSize": "28",
+    "maxSize": "48"
+  },
+  {
+    "shoeId": "2006",
+    "price": "799",
+    "name": "Riding biker",
+    "description": "Knehøye støvletter suste for alvor inn i motebildet i Mad Men-tiden på 50- og 60-tallet, en tid som igjen setter sitt preg på motebildet. Røff og flott hybrid mellom ridestøvel og biker-boots. Oljet nubuck-skinn. Praktisk glidelås midt bak. Prima til jeans, tights eller \"treggings\".",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "30",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "2008",
+    "price": "349",
+    "name": "Høy tå-leranse",
+    "description": "Denne biker-booten i kraftig skinn tåler det meste av høst- og vintervær, og har høy, vid tupp for maksimal tå-komfort. Varmtfôret i lammeskinn og med myk kant som puser med anklene dine. Kraftig såle med god gripeevne. Legg merke til den lekre, skrå glidelåsen på utsiden.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "42",
+    "maxSize": "43"
+  },
+  {
+    "shoeId": "201",
+    "price": "999",
+    "name": "Lett på foten",
+    "description": "Deilige tur-, fritids- og fotballmamma-sko. I ledig mesh-stoff og med Sympatex, en tynn og vanntett membran som holder føttene tørre, samtidig som de får puste. Disse tåler en tur i myra! Lett, myk såle. Polstret hælkappe for ekstra komfort. ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "35",
+    "maxSize": "38"
+  },
+  {
+    "shoeId": "2010",
+    "price": "599",
+    "name": "Chelsea vil på fest",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelsen. Den karakteristiske elastikken gjør skoletten enhel å ta på og av. Denne party-varianten med kraftig hæl på xx cm, er tett rundt ankelen og funker smashings sammen med skjørt.",
+    "brand": "Softwalk",
+    "color": "Hvit",
+    "minSize": "30",
+    "maxSize": "30"
+  },
+  {
+    "shoeId": "2011",
+    "price": "479",
+    "name": "Chelsea med kontrastsåle",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelsen. Den karakteristiske elastikken går her hele veien rundt – sitter som støpt rundt hele ankelen. Mykt, mørkt skinn. Herlig, lys såle. Til skjørt og jeans, med en androgyn touch.",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "38",
+    "maxSize": "38"
+  },
+  {
+    "shoeId": "2014",
+    "price": "279",
+    "name": "\"Norsk\" Chelsea",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelsen. Denne modellen er perfekt for norsk klima. Den karakteristiske elastikken gjør den enkelt å ta av og på. God passform foran på tåen. Rødt, kontrastfarget fôr.",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "38",
+    "maxSize": "38"
+  },
+  {
+    "shoeId": "2017",
+    "price": "699",
+    "name": "Italiensk diva",
+    "description": "Knehøye støvletter suste for alvor inn i motebildet i Mad Men-tiden på 50- og 60-tallet, en tid som igjen setter sitt preg på motebildet. Denne lekkerbiskenen av en italiener er en slank, smal støvel på kraftig såle. Deilig skinn. Praktisk, utvendig glidelås. Slipp løs din indre diva!",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "43",
+    "maxSize": "43"
+  },
+  {
+    "shoeId": "2020",
+    "price": "279",
+    "name": "Italiensk biker-boot",
+    "description": "Italiensk. smal og smekker støvlett som egentlig burde ha blitt levert sammen med en Vespa. Elegant ankelhøyde. Deilig skinn. Lekre, lett uvørne spenne-detaljer. Praktisk, innvendig glidelås. Hempe bak, for å ta den enkelt av og på. God, solid såle.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "24",
+    "maxSize": "24"
+  },
+  {
+    "shoeId": "212",
+    "price": "799",
+    "name": "Hold en knapp på denne",
+    "description": "Denne sko-stilen oppsto i Australia og New Zealand på 60-tallet og har nå erobret hele verden. Vår inne-utgave av denne trendy støvletten er så deilig at har du først fått den på, vil du ikke ta den av igjen. Supermyk og med varmt teddyfôr. Kule knappedetaljer.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "19",
+    "maxSize": "32"
+  },
+  {
+    "shoeId": "213",
+    "price": "1199",
+    "name": "Glittertøffelen din",
+    "description": "Hvem har sagt at tøfler ikke kan overrisles med glamour? Ihvertfall ikke vi. I glitter-dekor, med strikk-detalj over vristen for ekstra god komfort. Myke, lette og med god passform. Skal du i postkassen eller hente avisen, er det ikke lenger noen grunn til å skifte sko.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "43",
+    "maxSize": "43"
+  },
+  {
+    "shoeId": "215",
+    "price": "649",
+    "name": "Fotform-tøffel",
+    "description": "Denne berømte sko-looken kan spores langt tilbake i tid, med opprinnelse i Tyskland. Fotform-tøffel med varm, pustende filt og borrelås. Tøff kontrastsåle i kork. Terapi for føttene og praktiske å ha på når du for eksempel gjør rent i huset – ting henger ikke fast under sålen.",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "45",
+    "maxSize": "45"
+  },
+  {
+    "shoeId": "216",
+    "price": "849",
+    "name": "Fotseng-tøffel",
+    "description": "Den rene sengen for føttene dine. Du behøver ikke engang bøye deg for å få tøflene på. Har du først kommet inn i disse, vil føttene dine rett og slett protestere hvis du prøver å ta dem ut igjen. Fin dekorsøm. Skjønt teddyfôr med pusekant. Gummisåle med godt grep.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "20",
+    "maxSize": "25"
+  },
+  {
+    "shoeId": "219",
+    "price": "649",
+    "name": "Luksus-tøfler",
+    "description": "Tenk å ha trasket ute en hel dag og så komme hjem til disse! Det napper i tærne bare ved tanken. En mokasin-tøffel i lammeskinn, med pusekant. Varmere enn varmest. Gummisåle med godt grep. Kommer i flere fine farger. Fungerer spesielt godt sammen med kakao og en god bok. Leveres i gaveeske.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "22",
+    "maxSize": "22"
+  },
+  {
+    "shoeId": "220",
+    "price": "879",
+    "name": "Pappas nye kamerat",
+    "description": "En av våre bestselgere fordi den rett og slett er den perfekte tøffelen for pappaer i alle aldre. Den er som en skreddersydd hanske for føttene. Former seg etter foten. Deilig skinn og med myk skinnsåle. Skinnfôr. Fin rem-detalj. En slip-on som er lett å komme inn i og ut av.",
+    "brand": "Nike",
+    "color": "Svart",
+    "minSize": "27",
+    "maxSize": "28"
+  },
+  {
+    "shoeId": "2201",
+    "price": "579",
+    "name": "Mannens lille sorte",
+    "description": "Et must for alle norske gentlemen. En anvendelig klassiker som gjør susen både på kontoret og som pensko på fest. Fine sømdetaljer og smale, delikate lisser gjør at den passer godt til dress. Deilig, mykt skinn og en herlig passform med rund tupp som gjør at du kan gå i den hele dagen. ",
+    "brand": "Nike",
+    "color": "Svart",
+    "minSize": "27",
+    "maxSize": "27"
+  },
+  {
+    "shoeId": "2203",
+    "price": "379",
+    "name": "Rocka på fest",
+    "description": "Flott biker-boot som sammen med dress rocker det hele opp et par hakk. Til hverdags bruker du den med litt oppbrett i jeansen. Elegant! En sko som det er lov å vise at du har på. Praktisk glidelås på innsiden. Skinnfôret. Tynn, lett såle. Hempe bak for å ta den enkelt på.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "22",
+    "maxSize": "28"
+  },
+  {
+    "shoeId": "2205",
+    "price": "199",
+    "name": "Chelsea i nubuck",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelsen. Den karakteristiske elastikken gjør skoene enkle å ta av og på. Skinnfôret. Stilig, kontrastfarget såle. Nubuck-skinnet er børstet, noe som tilfører det ekstra liv.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "36",
+    "maxSize": "36"
+  },
+  {
+    "shoeId": "2207",
+    "price": "649",
+    "name": "Basket-sko i skinn",
+    "description": "En skikkelig fritids- og studentsko. Gjør veien til forelesningssalen til en drøm. Skinn med semskede detaljer. Skinnfôret. Snøringen kan varieres, hele veien opp eller ikke, for forskjellig look. Tøff, hvit og litt høy basket-såle. Myk skinnpolstring rundt ankelen for ekstra god komfort.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "27",
+    "maxSize": "38"
+  },
+  {
+    "shoeId": "2208",
+    "price": "379",
+    "name": "Vinterstøvel med haitenner",
+    "description": "Overrasket av vinterværet? Da snører du den bare helt opp. Sålen med haitann-grep sørger for god gripeevne på føret. Høyden gir god støtte for ankelen og den mye skinnpolstringen rundt, gir ekstra god komfort. Skinn med mokasinsøm. Varmtfôret. Hempe bak for å ta den enkelt på og av.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "27",
+    "maxSize": "45"
+  },
+  {
+    "shoeId": "2210",
+    "price": "649",
+    "name": "Fra far til sønn",
+    "description": "Har du arvet denne skoen av faren din? Nei, du har kjøpt den på Eurosko! Nydelig vintage-look. Deilig, mykt og behandlet skinn som rocker opp tilværelsen. Eller dressen! Smale, delikate lisser. God, fleksibel såle. Skinnfôret. Praktisk hempe bak for å ta den enkelt på.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "28",
+    "maxSize": "34"
+  },
+  {
+    "shoeId": "2301",
+    "price": "749",
+    "name": "Høstens stiligste gummistøvel",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. På 60-tallet inntok de for alvor motescenen som fottøyet i mod-bevegelsen. Dette er en stilig gummelstøvel-variant som du kan gå i selv om det ikke regner. Nydelig passform. Fôret. Praktisk hempe bak for å ta den enkelt av og på.",
+    "brand": "Softwalk",
+    "color": "Hvit",
+    "minSize": "49",
+    "maxSize": "49"
+  },
+  {
+    "shoeId": "25",
+    "price": "749",
+    "name": "Pustende pusesko",
+    "description": "Fot-kosende filt-tøffel. Perfekt i barnehagen. Pusekatt over tærne. Filt varmer, men puster også, slik at føttene ikke blir klamme. Stor, god åpning, men med borrelås slik at den sitter godt på de raske barneføttene. Lett gummisåle som ikke sklir. ",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "29",
+    "maxSize": "48"
+  },
+  {
+    "shoeId": "27",
+    "price": "1299",
+    "name": "Min mokasin er fin",
+    "description": "Mokasiner er ikke bare for Lille Hiawatha. De er også deilige å tasse rundt i for indianerbarn her hjemme også, enten inne eller i varmt godvær ute. Kul tekstiloverdel på god og myk gummisåle. Borrelåsen foran gjør at den både sitter godt på foten og er lett å ta av og på. ",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "30",
+    "maxSize": "36"
+  },
+  {
+    "shoeId": "29",
+    "price": "749",
+    "name": "Kosedyr på beina",
+    "description": "Denne ultramyke sjarmøren av en tøffel vil få barnet til å hyle av fryd! Her skal du slippe å mase for å få fottøyet på. Utenpå er sålen anti-skli. Inni er en såkalt EVA-såle som former seg etter de små, ømfindtlige føttene som vokser så raskt.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "37",
+    "maxSize": "37"
+  },
+  {
+    "shoeId": "3",
+    "price": "379",
+    "name": "Aktiv på kalde dager",
+    "description": "God ankelhøyde. Forsterket tå for aktive barn på kalde dager. Lett og bøyelig overgangssko med Sympatex – en vanntett membran som holder de aktive barneføttene tørre, samtidig som de får puste. Med målesålen sjekker du at skoen passer. Borrelås og hempe gjør den enkel å ta av og på. ",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "32",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "30",
+    "price": "479",
+    "name": "Slitesterke snow boots",
+    "description": "For kalde dager i barnehagen og på skolen. I snøstøvelen er det en uttagbar filtsokk med termisk folie som holder foten varm helt ned til minus 40 grader! Justerbar stramming øverst, så snøen ikke kommer inn. Borrelås rundt vrist for maksimal passform. Refleks på hælen for ekstra sikkerhet.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "39",
+    "maxSize": "39"
+  },
+  {
+    "shoeId": "32",
+    "price": "1179",
+    "name": "Klar, ferdig, tå!",
+    "description": "Forsterket tå, super for løping, snubling og fotball. Lett og bøyelig i mesh-stoff og Sympatex, en tynn og vanntett membran som holder aktive, unge føtter tørre, samtidig som de får puste. Justerbare strikk-lisser. Uttagbar, formstøpt innersåle. Robust yttersåle med god gripeevne. ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "45",
+    "maxSize": "45"
+  },
+  {
+    "shoeId": "36",
+    "price": "399",
+    "name": "Tøff vinterstøvel",
+    "description": "Deilig å vasse i snøen med. Høy, med trendy snøring som bidrar til at den sitter godt på oppover leggen. Varmtfôret inni og fine skinndetaljer utenpå. Med Sympatex, en tynn og vanntett membran som holder føttene tørre, samtidig som de får puste. Hempe bak gjør den enkel å ta av og på.",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "21",
+    "maxSize": "43"
+  },
+  {
+    "shoeId": "39",
+    "price": "579",
+    "name": "Spennende spenner",
+    "description": "Motorsykkel-støvler, eller \"biker boots\", er så fine at de ikke bare er forbeholdt de som har motorsykkel. Sålen med den lave hælen, egentlig laget for å ha best mulig kontroll på sykkelen, gir god gripeevne på glatt høst- og vinterføre. Robust og med spennende spenne-detaljer.   ",
+    "brand": "Softwalk",
+    "color": "Hvit",
+    "minSize": "45",
+    "maxSize": "45"
+  },
+  {
+    "shoeId": "401",
+    "price": "379",
+    "name": "Ekstra god såle",
+    "description": "Super for fritid og skole. Basket-sko i semsket skinn. Teddyfôret. Flate, fine lisser som kan snøres hele veien opp for god komfort. Fin, lys kontrastsåle og forsterket tå. Vår modell er bedre for føttene enn mange lignende modeller, fordi den har en bedre oppbygget såle, en såkalt fotseng.",
+    "brand": "Nike",
+    "color": "Svart",
+    "minSize": "40",
+    "maxSize": "40"
+  },
+  {
+    "shoeId": "404",
+    "price": "1079",
+    "name": "Ut, uansett vær",
+    "description": "Til-og-fra-skolen-støvlett og når du skal henge sammen med venninnene på fritiden – uansett vær. Basket-look. Vannavstøtende skinn. Teddyfôret hele veien opp, slik at du holder deg god og varm rundt anklene. God, oppbygget såle med fotseng. I delikat kamel-farge.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "30",
+    "maxSize": "30"
+  },
+  {
+    "shoeId": "410",
+    "price": "1149",
+    "name": "Skandinavisk hverdag",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden, men er nå hot igjen. Den karakteristiske elastikken på siden, og hempene, gjør den lett å ta av og på. Denne anvendelige bestselgeren er tilpasset skandinavisk hverdag. Kraftig skinn med deilig struktur. Røff såle med godt grep.",
+    "brand": "Nike",
+    "color": "Rød",
+    "minSize": "44",
+    "maxSize": "44"
+  },
+  {
+    "shoeId": "414",
+    "price": "349",
+    "name": "Boots for babes",
+    "description": "Det bor en MC-rype i oss alle! Biker-boots i kraftig, fettet skinn som gir en vakker matt finish. Spennende spenne-detaljer. Vid og god øverst. Helstøpt såle med godt grep. Praktisk glidelås på innsiden. Ta dem på og så skal du se at det plutselig kommer en kar kjørende med ledig plass bakpå.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "27",
+    "maxSize": "29"
+  },
+  {
+    "shoeId": "416",
+    "price": "249",
+    "name": "Going back to my boots",
+    "description": "De klassiske støvlene i 50-tallslook vender vi tilbake til gang på gang. De går aldri av moten! Kraftig, mykt skinn med nydelig struktur. Varmtfôret. God passform. Helstøpt, kraftig såle med godt grep. Hullsnøring nederst og hektesnøring øverst. Kan snøres helt eller halvveis for forskjellig look.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "47",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "422",
+    "price": "949",
+    "name": "Sigarettbukse-sko ",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden, men er nå hot igjen. Den karakteristiske elastikken på siden, og hempen, gjør den lett å ta av og på. Smal, høy versjon av klassikeren. Tynn, fleksibel såle med lav hæl. Skinnfôret. En super kontor-Chelsea som gir deg en \"smal\" look.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "46",
+    "maxSize": "46"
+  },
+  {
+    "shoeId": "430",
+    "price": "679",
+    "name": "Mange muligheter",
+    "description": "Klassiske 50-tallsstøvler med en myk, smal og elegant vri. Mykt, deilig skinn med klassiske brogue-detaljer. Smal lest. Skinnfôret. Praktisk glidelås på innsiden. Lace up-boots som gir deg mange muligheter for en variert look. Kan snøres helt eller halvveis, og passer sammen med bukse og skjørt.",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "43",
+    "maxSize": "43"
+  },
+  {
+    "shoeId": "439",
+    "price": "249",
+    "name": "Danse-loafers med bling",
+    "description": "Ballerinaskoene som gjør deg til diskogulvets ballerina. Spiss tå og såler som er så myke at du kan danse hele natta. Pyntesko for damer i alle aldre. Spekket med herlig bling som blinker om kapp med discokula i taket. Er også midt i blinken når du vil være hverdagsfin.",
+    "brand": "Echo",
+    "color": "Rød",
+    "minSize": "22",
+    "maxSize": "27"
+  },
+  {
+    "shoeId": "44",
+    "price": "1179",
+    "name": "Varm og vakker",
+    "description": "En besteselger! Vakker vinterstøvel, perfekt for den norske vinteren. Glamorøs kant i fuskepels. Varmtfôret og vanntett. Glidelåsen på innsiden gjør den enkel å ta av og på. Kraftig, god såle med god gripeevne, siden det ikke er fullt så glamorøst å falle på isen.",
+    "brand": "Nike",
+    "color": "Rød",
+    "minSize": "35",
+    "maxSize": "40"
+  },
+  {
+    "shoeId": "442",
+    "price": "549",
+    "name": "Klassisk mokasin",
+    "description": "Klassisk mokasin som er røffet opp et hakk med med en solid, helstøpt såle med godt grep. Deilig, semsket skinn. Svært graderobevennlig, kan brukes sammen med det meste. Er desidert tøffest sammen med shorts og brune bein på svale musikkfestivalkvelder.",
+    "brand": "Timberland",
+    "color": "Grønn",
+    "minSize": "25",
+    "maxSize": "25"
+  },
+  {
+    "shoeId": "451",
+    "price": "279",
+    "name": "Studiestart",
+    "description": "Den roper studiestart, denne basketskoen. Passer godt som mellomsko, eller overgangssko, fra høst til vinter, eller vinter til vår. Myk og god, i skinn og tekstil. Polstring ved anklene for ekstra god komfort. Snøring hele veien opp bidrar til at de sitter perfekt på. Lett, lys såle.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "45",
+    "maxSize": "45"
+  },
+  {
+    "shoeId": "458",
+    "price": "949",
+    "name": "Skater-sko for ruskevær",
+    "description": "Man ber ikke været om lov til å være sporty! Skinnsko med Sympatex, en tynn og vanntett membran i skoene som holder føttene tørre, samtidig som de får puste. Mokasin-tå. Varmtfôret. Polstring ved anklene for ekstra god komfort. Kraftig såle med godt grep.",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "35",
+    "maxSize": "35"
+  },
+  {
+    "shoeId": "461",
+    "price": "279",
+    "name": "Robust turkamerat",
+    "description": "Når du beiner på i terrenget, gjør du det med disse godt konstruerte turskoene på beina. I ledig mesh-stoff og med Sympatex, en tynn og vanntett membran som holder føttene tørre, samtidig som de får puste. Forsterket tå. Skrå bak for ulendt terreng. God, lett gripesåle.",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "46",
+    "maxSize": "46"
+  },
+  {
+    "shoeId": "462",
+    "price": "1299",
+    "name": "Semsket akademiker",
+    "description": "En sko for smarte karer! En semsket sko som trives godt sammen med jeans og dressjakke, enten på kontoret eller i forelesningskorridorene. Kommer i blå, en av sesongens herlige trendfarger. Myk innersåle. Lys og lekker randsøm over yttersåle i crêpe, en solid form for naturgummi. God passform.",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "35",
+    "maxSize": "44"
+  },
+  {
+    "shoeId": "464",
+    "price": "649",
+    "name": "Mye sko for pengene",
+    "description": "Skoen alle vil ha, kanskje fordi den har alt. Bestselger i røff biker-look som gir den et anstrøk vintage. Brunt, børstet skinn skaper liv i skooverflaten. Hempe bak gjør den enkel å ta på. Alle menn ser kjekke ut i denne, og den passer til det meste som måtte finnes i klesskapet.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "32",
+    "maxSize": "43"
+  },
+  {
+    "shoeId": "47",
+    "price": "399",
+    "name": "Trendy og tett",
+    "description": "Denne sko-stilen oppsto i Australia og New Zealand på 60-tallet og har nå erobret hele verden. Vår utgave av den trendy støvletten har en viktig egenskap som skiller den fra flere lignende modeller: Mellom fôret og skostoffet er det en membran som gjør den vanntett. Den er lett, myk og varm.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "27",
+    "maxSize": "33"
+  },
+  {
+    "shoeId": "470",
+    "price": "579",
+    "name": "We all live in a yellow boot",
+    "description": "Yankeene i ville vesten hadde en egen evne til å lage skikkelige saker med det man hadde tilgjengelig, og \"the yellow boot\" har røtter tilbake den tiden. En klassiker og blant våre bestselgere. Flott nubuck-skinn. Varmtfôret. God passform og polstring rundt anklene. Solid såle med godt grep.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "42",
+    "maxSize": "42"
+  },
+  {
+    "shoeId": "472",
+    "price": "1199",
+    "name": "Das boot",
+    "description": "En støvlett-klassiker i ny og trendy utgave med flotte og spennende detaljer. Deilig, semsket skinn. Legg merke til den lyse og spesielle sålen som også har godt grep på glatt føre. Hempe bak gjør den enkel å ta på. Praktisk glidelås på innsiden. Varmtfôret.",
+    "brand": "Face",
+    "color": "Hvit",
+    "minSize": "24",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "475",
+    "price": "849",
+    "name": "En stayer på foten",
+    "description": "Ankel-boots som du har i sesong etter sesong. Klassisk pen, litt røff i kantene og grundig håndverk. Skoen har solid såle med godt grep. Praktisk glidelås på innsiden. Kraftig skinn, med vintage-touch. Fin både til dress og jeans, og enten du er på kontoret eller skal på puben etterpå.",
+    "brand": "Softwalk",
+    "color": "Grønn",
+    "minSize": "22",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "50",
+    "price": "199",
+    "name": "En touch beksøm",
+    "description": "Beksøm-stilen har en stor tilhengerskare, og nå vil barna også ha den! Kontrast-lissene snøret i hempene utenpå er bare tøft. Stødige skinnsko, med god støtte rundt anklene. Lyse, robuste såler som griper godt. Den tykke \"sko-tungen\" gjør den ekstra behagelig over vristen.",
+    "brand": "Softwalk",
+    "color": "Grønn",
+    "minSize": "30",
+    "maxSize": "47"
+  },
+  {
+    "shoeId": "54",
+    "price": "949",
+    "name": "Skoen som gjør jobben",
+    "description": "\"Worker boots\", eller arbeiderstøvler, er riktig hele året. Denne her modellen kommer i nydelig nubuck-skinn. Glidelåsen på innsiden gjør den enkel å ta av og på. Varmtfôret og høyt skaft med polstring, for ekstra god komfort. Mokkasinsøm. Og sjekk den stilige sålen!",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "39",
+    "maxSize": "39"
+  },
+  {
+    "shoeId": "59",
+    "price": "279",
+    "name": "Perfekte all-around-sko",
+    "description": "Basket-looken passer til fritid som til skole. Sympatex, en tynn og vanntett membran, holder føttene tørre, samtidig som de får puste. Den har også en uttagbar, formstøpt inn-sokk, en såkalt \"fotseng\", som holder føttene sunne. Strikklisse og borrelås gjør at den sitter godt på. ",
+    "brand": "Roots",
+    "color": "Grønn",
+    "minSize": "39",
+    "maxSize": "39"
+  },
+  {
+    "shoeId": "65",
+    "price": "899",
+    "name": "Glitrende fin",
+    "description": "Når det er fødselsdager og andre selskaper vil alle jenter glitre, og her starter glitringen allerede nederst med den lekre detaljen over tærne. Justerbar rem med borrelås over vristen, som bidrar til at denne penskoen sitter godt på og ikke faller av i trappa når Askepott skal hjem. Stødig hæl på XX cm.",
+    "brand": "Puma",
+    "color": "Rød",
+    "minSize": "24",
+    "maxSize": "45"
+  },
+  {
+    "shoeId": "7",
+    "price": "479",
+    "name": "Tørr og varm",
+    "description": "En klassisk sko for aktive barn, for kalde og våte dager. God, høy ankelstøtte. Lett og bøyelig, med Sympatex – en tynn og vanntett membran som holder de aktive barneføttene tørre, samtidig som de får puste. Borrelås og hempe gjør den enkel å ta av og på.",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "23",
+    "maxSize": "34"
+  },
+  {
+    "shoeId": "704",
+    "price": "1099",
+    "name": "Som fot i hanske",
+    "description": "At denne skjønne ankel-booten føles som en hanske på foten er ikke det minste rart, da den faktisk er laget i hanskeskinn. Ultramyk. Sitter deilig på og har en stødig og solid hæl på xx cm. Praktisk glidelås på innsiden. Snasen remdetalj. Gir deg en stram, ren look. Helt wow til drakt eller bare draktbukse.",
+    "brand": "Timberland",
+    "color": "Grønn",
+    "minSize": "24",
+    "maxSize": "36"
+  },
+  {
+    "shoeId": "708",
+    "price": "499",
+    "name": "Byvinter",
+    "description": "En biker-støvel med feminint anstrøk og Goretex-membran, verdensmester i å holde beina tørre samtidig som de får puste. Semsket skinn. Varmtfôret. Hempe bak for å ta den enkelt på. Lett polstring for ekstra beskyttelse. Snøringen bidrar til at den sitter perfekt på.",
+    "brand": "Echo",
+    "color": "Rød",
+    "minSize": "25",
+    "maxSize": "31"
+  },
+  {
+    "shoeId": "8",
+    "price": "1049",
+    "name": "Stilig og varm",
+    "description": "En varmtfôret, stilig jentestøvel med myk kant. Lett og bøyelig, med Sympatex – en tynn og vanntett membran som holder de aktive barneføttene tørre, samtidig som de får puste. Elastisk snøring som bidrar til at den sitter godt på foten. Hempe gjør den enkel å ta av og på.",
+    "brand": "Timberland",
+    "color": "Grønn",
+    "minSize": "37",
+    "maxSize": "42"
+  },
+  {
+    "shoeId": "80",
+    "price": "399",
+    "name": "Den lille sorte",
+    "description": "Dette er skoversjonen av \"den lille sorte\". En allsidig, vakker og stilren sko som passer både på kontoret og når du skal bort om kvelden. Prøv den både med jeans og skjørt, så skal du se hva som skjer med hele deg! Smal, elegant hæl på XX cm. Lett og myk såle. ",
+    "brand": "Echo",
+    "color": "Blå",
+    "minSize": "40",
+    "maxSize": "40"
+  },
+  {
+    "shoeId": "807",
+    "price": "379",
+    "name": "Vinterens ener",
+    "description": "Det blir nesten ikke bedre enn dette: En høykvalitets Ecco-støvel med Goretex-mebran, verdensmester i å holde beina tørre samtidig som de får puste. Lisse-stropp, så det ikke blir kluss med snøring. Komfort-polstring rundt kanten. God passform og solid såle med godt grep.",
+    "brand": "Softwalk",
+    "color": "Grønn",
+    "minSize": "46",
+    "maxSize": "46"
+  },
+  {
+    "shoeId": "809",
+    "price": "349",
+    "name": "Vintervakker",
+    "description": "Stilig snow-jog med pelskant og deilig varmtfôr som holder deg varm helt fra tærne og til godt opp på leggene. Snøring med \"stopper\", lett å tilpasse. Brunt, kraftig skinn. Solid, høy såle med godt grep. Perfekt på dramatiske dager når turen til nærmeste kaffebar føles som en ekspedisjon til Sydpolen.",
+    "brand": "Nike",
+    "color": "Svart",
+    "minSize": "24",
+    "maxSize": "33"
+  },
+  {
+    "shoeId": "823",
+    "price": "199",
+    "name": "Boot-stjernen Caterpillar",
+    "description": "Yellow boot eller worker boot. Kjært barn har mange navn, men Caterpillars versjon er den største boot-stjernen på sko-himmelen. En klassisk skinnstøvel med røffe detaljer. Solid såle med god gripeevne. Flott nubuck-skinn. God passform og nylonpolstring rundt anklene for ekstra komfort.",
+    "brand": "Nike",
+    "color": "Svart",
+    "minSize": "46",
+    "maxSize": "46"
+  },
+  {
+    "shoeId": "824",
+    "price": "379",
+    "name": "Klassikeren Dr Martens",
+    "description": "Røtter tilbake til etterkrigstiden. En popkulturell gjenganger fra midten av 70-tallet og fram til i dag. Laget i Hardlife Leather, dvs. lær som er mettet med vannavstøtende oljer og vokset. Nydelig, matt finish. 8-hullssnøring. Hempe bak for å ta den enkelt på. Bli rocke-chic med raggsokker og skjørt til.",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "46",
+    "maxSize": "46"
+  },
+  {
+    "shoeId": "83",
+    "price": "399",
+    "name": "Bli oppløftet",
+    "description": "Hvis champagne er en sko, er det denne plattformskoen, eller platåskoen, om du vil. Glamorøse pumps med god passform. Rund tå. XX cm hæl. Smyg beina inn i dem og catwalk deg elegant ut av hverdagen og rett inn på enhver fest, enten det er fødselsdager, julebord eller annet. ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "23",
+    "maxSize": "31"
+  },
+  {
+    "shoeId": "832",
+    "price": "879",
+    "name": "Supermyke Emu",
+    "description": "Sko-stil som oppsto i Australia og New Zealand på 60-tallet. Er i dag elsket av en hel verden. Kjendisene trykker Emu-sko til sine føtter! Supermykt, semsket australsk saueskinn. Varmtfôret. Dobbeltsydd yttersøm for ekstra styrke. Denne Emu-originalen har en langt mer stødig såle enn lignende modeller.",
+    "brand": "Echo",
+    "color": "Blå",
+    "minSize": "43",
+    "maxSize": "43"
+  },
+  {
+    "shoeId": "85",
+    "price": "449",
+    "name": "Party på \"remme\" alvor",
+    "description": "Hvis du ikke forter deg med å få dem på beina, drar disse plattformskoene, eller platåskoene, på fest uten deg! Glamorøse, med god passform. Rund tå. XX cm hæl. Den tidsriktige, justerbare remmen bidrar til at pumpsen sitter bedre på og at de fine anklene dine får full oppmerksomhet.",
+    "brand": "Softwalk",
+    "color": "Grønn",
+    "minSize": "49",
+    "maxSize": "49"
+  },
+  {
+    "shoeId": "86",
+    "price": "249",
+    "name": "Chelsea girl",
+    "description": "Chelsea-boots er opprinnelig ridesko fra viktoriatiden. Inntok for alvor motescenen som fottøyet i 60-tallets mod-bevegelse. Nå er de herlige støvlettene her igjen! Den karakteristiske elastikken på sidene gjør at de sitter behagelig og mykt på. Ren og klassisk stil som passer til det meste. ",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "24",
+    "maxSize": "38"
+  },
+  {
+    "shoeId": "89",
+    "price": "679",
+    "name": "Cowgirl chic",
+    "description": "Her er det bare å rive til seg nærmeste mikrofon og bryte ut i køntri-sang! Cowgirl-stilen går aldri av moten. Støvlett med fine detaljer. Sorte, glitrende plexi-stener på regulerbare spenner. Praktisk glidelås på innsiden. XX cm hæl. Super til både olabukse og skjørt. Jiii-haaa!",
+    "brand": "Softwalk",
+    "color": "Hvit",
+    "minSize": "28",
+    "maxSize": "28"
+  },
+  {
+    "shoeId": "90",
+    "price": "599",
+    "name": "Den rette holdningen",
+    "description": "Du fortjener å bli litt oppløftet, og disse skoene vil hjelpe deg med dét! Bratt hæl på xx cm. Skoene bidrar til å gi deg god holdning og det lille ekstra \"tuttet\" i rumpa. Dekor-glidelås på utsiden og praktisk glidelås inni. En flott all-rounder som passer til hverdags og fest, til bukser og skjørt.",
+    "brand": "Timberland",
+    "color": "Blå",
+    "minSize": "32",
+    "maxSize": "44"
+  },
+  {
+    "shoeId": "92",
+    "price": "499",
+    "name": "Sko som holder løftet",
+    "description": "Den klassiske motorsykkel-støvelen, eller \"biker bootsen\", løftet opp et par elegante hakk. Mye takket være en god hæløyde på xx cm som gjør støvlettene deilige å gå i. Komfortabelt vid og luftig rundt ankelen. Dekor-glidelås på utsiden, praktisk glidelås på innsiden. Såle med god gripeevne.    ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "46",
+    "maxSize": "46"
+  },
+  {
+    "shoeId": "94",
+    "price": "999",
+    "name": "These boots are made for walking",
+    "description": "Boots i 50-talls-look tilsatt en dash emo. Fleece-fôret. Du trenger bare snøre den én gang slik at den sitter perfekt, deretter kan du bruke den praktiske glidelåsen på innsiden og hempen for å enkelt ta den på og av. Kraftig såle med god gripeevne. Lekker til både skjørt, tights og jeans.",
+    "brand": "Nike",
+    "color": "Rød",
+    "minSize": "19",
+    "maxSize": "19"
+  },
+  {
+    "shoeId": "98",
+    "price": "1079",
+    "name": "Høyt og lavt",
+    "description": "Ungdommelig motorsykkel-støvel, eller \"biker boots\", med høyt skaft og lav hæl. Varmtfôret. Lekre spenne-detaljer. Glidelås på innsiden som gjør den lett å ta på og av. Sterk og lett såle med god gripeevne. Passer til både skjørt og jeans. ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "24",
+    "maxSize": "24"
+  },
+  {
+    "shoeId": "99",
+    "price": "1199",
+    "name": "Lave sko, lengre bein",
+    "description": "Vil du ha lengre, smekrere bein? Ta på deg et par \"chunky lace ups\", reis deg opp og se hva som skjer. Wow, ikke sant? Lav ankel på skoen gir beina lengde, og siden den også er en touch plattform, eller platå, rager du også høyere, uten at hælen er så høy at det blir for bratt.  ",
+    "brand": "Adidas",
+    "color": "Svart",
+    "minSize": "39",
+    "maxSize": "46"
+  }
+]

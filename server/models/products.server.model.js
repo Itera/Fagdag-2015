@@ -6,7 +6,7 @@ var ProductSchema = new Schema({
 		type: String,
 		trim: true
 	},
-	id: {
+	shoeId: {
 		type: Number
 	},
 	brand: {
