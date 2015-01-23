@@ -1,27 +1,29 @@
-<h1>Velkommen til Lille Vinkel skobutikk på nett!</h1>
-<h2>Den enkle måten å handle sko til hele familien.</h2>
 
-<table style="width:100%">
-  <tr bgcolor="#ccc">
-    <td>Brand</td>
-    <td>Navn</td>
-    <td></td>
-    <td>Beskrivelse</td>
-    <td>Farge</td>
-    <td>Størrelser</td>
-    <td>Pris</td>
-    <td></td>
-  </tr>
-  <% @products.each do |prod| %>
-  <tr>
-    <td><%=prod.brand%></td>
-    <td><%=prod.title%></td>
-    <td><img src="<%=image_path(prod.image)%>"></td>
-    <td><%=prod.description%></td>
-    <td><%=prod.color%></td>
-    <td><%=prod.size_min%> - <%=prod.size_max%></td>
-    <td><%=prod.price%></td>
-    <td><%=button_to "Legg til", add_to_cart_product_path(1, size: 42)%></td>
-  </tr>
-  <%end%>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Brand</th>
+      <th>Navn</th>
+      <th></th>
+      <th>Beskrivelse</th>
+      <th>Farge</th>
+      <th>Størrelser</th>
+      <th>Pris</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @products.each do |prod| %>
+    <tr>
+      <td><%=prod.brand%></td>
+      <td><%=prod.title%></td>
+      <td><img src="<%=image_path(prod.image)%>"></td>
+      <td><%=prod.description%></td>
+      <td><%=prod.color%></td>
+      <td><%=prod.size_min%> - <%=prod.size_max%></td>
+      <td><%=prod.price%></td>
+      <td><%=button_to "Legg til", add_to_cart_product_path(1, size: 42)%></td>
+    </tr>
+    <%end%>
+  </tbody>
 </table>
