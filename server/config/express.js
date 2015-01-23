@@ -18,10 +18,8 @@ module.exports = function() {
 	app.set('views', './server/views');
 	app.set('view engine', 'ejs');
 
-	// Require routes
-	require('../routes/index.server.routes')(app);
-	require('../routes/user.server.routes')(app);
-	//
+	// Router
+	app.use('/', require('../routes'));
 
 	app.use(express.static('./public'));
 
