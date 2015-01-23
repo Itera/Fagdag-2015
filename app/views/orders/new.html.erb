@@ -14,14 +14,23 @@
   </ul>
   <br>
   <%= form_for @order do |f| %>
-    <%= f.select "user_id", options_from_collection_for_select(@users, "id", "name") %>
-    <%= f.label :credit_card %>:
-    <%= f.text_field :credit_card, size: 16 %><br />
-    <%= f.label "Utløp" %>:
-    <%= f.text_field :exp_month, size: 2 %>
-    <%= f.text_field :exp_year, size: 4 %><br />
-    <%= f.label :cc %>:
-    <%= f.text_field :cc, size: 3 %><br />
+    <%= f.select "user_id", options_from_collection_for_select(@users, "id", "name") %><br />
+    <table>
+      <tr>
+        <td><%= f.label :credit_card %>:</td>
+        <td colspan="2"><%= f.text_field :credit_card, size: 16 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label "Utløp" %>:</td>
+        <td><%= f.text_field :exp_month, size: 2 %></td>
+        <td><%= f.text_field :exp_year, size: 4 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :cc %>:</td>
+        <td><%= f.text_field :cc, size: 3 %></td>
+      </tr>
+    </table>
+
     <%= f.submit "Kjøp" %>
    <% end %>
 <% end %>
