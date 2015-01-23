@@ -1,27 +1,27 @@
 <div ng-controller="IndexController as index">
 
 	<article ng-repeat="product in products | limitTo:2" class="product frontpage-top-2">
-			<img ng-src="https://raw.githubusercontent.com/Itera/fagdag-januar-2015/master/produkter/{{product.shoeId}}.jpg" alt="Not found">
+			<img ng-src="/img/big_shoes.png" alt="Not found">
 
-			<div class="frontpage-product-info">
+			<!-- <div class="frontpage-product-info">
 				<ul>
 					<li>{{product.brand}}</li>
 					<li>{{product.name}}</li>
 					<li>{{product.price}},-</li>
 				</ul>
-			</div>
+			</div> -->
 	</article>
+ <!-- ng-repeat="product in products | slice:2:6" -->
+	<article class="product frontpage-top-2">
+		<img ng-src="/img/small_shoes.jpg" alt="Not found">
 
-	<article ng-repeat="product in products | slice:2:6" class="product frontpage-bottom-4">
-		<img ng-src="https://raw.githubusercontent.com/Itera/fagdag-januar-2015/master/produkter/{{product.shoeId}}.jpg" alt="Not found">
-
-		<div class="frontpage-product-info">
+		<!-- <div class="frontpage-product-info">
 			<ul>
 				<li>{{product.brand}}</li>
 				<li>{{product.name}}</li>
 				<li>{{product.price}},-</li>
 			</ul>
-		</div>
+		</div> -->
 	</article>
 
 </div>
