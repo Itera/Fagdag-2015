@@ -1,0 +1,12 @@
+<div ng-controller="MyPageController">
+
+	<h1>Min Side</h1>
+
+	<h2>Ordrehistorikk</h2>
+	<div ng-repeat="order in orders">
+		<div>Tidspunkt: {{order.created}}</div>
+		<div>Produkter: {{order.products}}</div>
+	</div>
+
+</div>
+

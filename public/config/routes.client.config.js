@@ -16,6 +16,9 @@
 				.when('/product-details/:id', {
 					templateUrl: 'components/product-details/product-details.client.view.html'
 				})
+				.when('/my-page', {
+					templateUrl: 'components/my-page/my-page.client.view.html'
+				})
 				.otherwise({
 					redirectTo: '/'
 				});
