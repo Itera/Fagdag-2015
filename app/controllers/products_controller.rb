@@ -8,7 +8,7 @@ class ProductsController < ApplicationController
   def add_to_cart
     cart.add_product params[:id], params[:size]
 
-    redirect_to :root
+    render nothing: true
   end
 
   def decrease_from_cart
