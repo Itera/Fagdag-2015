@@ -12,5 +12,4 @@ Rails.application.routes.draw do
   root "products#index"
 
   get "users"    => "users#index"
-  get "orders"   => "orders#index"
 end
