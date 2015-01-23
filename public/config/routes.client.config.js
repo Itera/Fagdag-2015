@@ -16,6 +16,9 @@
 				.otherwise({
 					redirectTo: '/'
 				});
+		})
+		.run(function(productService) {
+			console.log('fooo')
+			productService.fetch();
 		});
-
 })();

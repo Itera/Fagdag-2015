@@ -2,7 +2,7 @@
 	<input ng-model='searchQuery' placeholder='Search products'>
 	<article ng-repeat="product in products | filter:searchQuery" class="product">
 		<h2>{{product.name}}</h2>
-		<img ng-src="{{product.imageUrl}}" alt="">
+		<img ng-src="https://raw.githubusercontent.com/Itera/fagdag-januar-2015/master/produkter/{{product.shoeId}}.jpg" alt="Not found">
 		<button ng-click='addProductToCart(product)'>Add to cart</button>
 	</article>
 </div>

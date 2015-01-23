@@ -10,9 +10,9 @@
 /* rgb(0, 96, 167) blue */
 
 body {
-	max-width: 800px;
 	margin: 0 auto;
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 40px;
 }
 
 header {
