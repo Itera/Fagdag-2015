@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get "products" => "product#index"
+  get "products" => "products#index"
 end
