@@ -8,7 +8,7 @@ var ProductSchema = new Schema({
 	},
 	id: {
 		type: Number
-	}
+	},
 	brand: {
 		type: String,
 		trim: true
