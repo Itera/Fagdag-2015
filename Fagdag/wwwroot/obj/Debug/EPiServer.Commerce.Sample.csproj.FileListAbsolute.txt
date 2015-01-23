@@ -1,0 +1,6 @@
+C:\dev\2015-fagdag1\Fagdag\wwwroot\obj\Debug\EPiServer.Commerce.Sample.csprojResolveAssemblyReference.cache
+C:\dev\2015-fagdag1\Fagdag\wwwroot\bin\EPiServer.Commerce.Sample.dll.config
+C:\dev\2015-fagdag1\Fagdag\wwwroot\bin\EPiServer.Commerce.Sample.dll
+C:\dev\2015-fagdag1\Fagdag\wwwroot\bin\EPiServer.Commerce.Sample.pdb
+C:\dev\2015-fagdag1\Fagdag\wwwroot\obj\Debug\EPiServer.Commerce.Sample.dll
+C:\dev\2015-fagdag1\Fagdag\wwwroot\obj\Debug\EPiServer.Commerce.Sample.pdb

@@ -1,0 +1,20 @@
+/* Sample Override
+-------------------------------------------------- */
+
+/*Off Position For Baseline Starter Demo*/
+
+
+.sample-off {
+	display: block;	
+}
+
+.sample-on {
+	display: none;	
+}
+
+footer {
+	background-color:#eee;	
+}
+
+
+
