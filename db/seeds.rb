@@ -6,5 +6,37 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+import_path = 'db/import_data/produkter'
+assets_path = 'vendor/assets/images'
+
+products = {}
+
+Dir.foreach(import_path) do |product|
+  if product == "." or product == ".."
+    next
+  end
+
+  id = product.split(".")[0].to_i
+  path = "%s/%s" % [import_path, product]
+
+  unless products[id]
+    products[id] = {id: id}
+  end
+
+  if product.end_with? ".jpg"
+    FileUtils.cp(path, assets_path)
+    products[id][:image] = product
+  elsif product.end_with? ".txt"
+    fields = File.readlines(path).map(&:chomp)
+    products[id][:price] = fields[0].to_f
+    products[id][:title] = fields[1]
+    products[id][:description] = fields[2]
+    products[id][:brand] = fields[3]
+    products[id][:color] = fields[4]
+    products[id][:size_min] = fields[5].to_i
+    products[id][:size_max] = fields[6].to_i
+  end
+end
+
 Product.delete_all
-Product.create(title: "Sko2", image: "image.jpg", description: "Dette er en god sko", color:"red", size_min:39, size_max:45, brand:"nike", price: 99)
+Product.create(products.values)
