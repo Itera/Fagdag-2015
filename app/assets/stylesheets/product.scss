@@ -16,3 +16,20 @@
     float: left;
   }
 }
+
+#cart {
+  float: right;
+}
+#cart-inner {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+#cart h3 {
+  text-align: center;
+}
+
+#cart table {
+  width: 100%;
+}

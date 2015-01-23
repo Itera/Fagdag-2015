@@ -1,5 +1,7 @@
 <div id="cart">
-  <%= render "carts/show" %>
+  <% if !@cart.empty? %>
+      <%= render "carts/show" %>
+  <% end %>
 </div>
 
 <table class="table product-list">

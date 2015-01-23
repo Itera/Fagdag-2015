@@ -1,15 +1,18 @@
-<table>
-  <tr>
-    <th>Produkt</th>
-    <th>Størrelse</th>
-    <th>Antall</th>
-  </tr>
-
-  <% @cart.products.each do |product, size, count| %>
+<div id="cart-inner">
+  <h3>Din handlekurv</h3>
+  <table class="table">
     <tr>
-      <td><%= product.title %></td>
-      <td><%= size %></td>
-      <td><%= count %></td>
+      <th>Produkt</th>
+      <th>Størrelse</th>
+      <th>Antall</th>
     </tr>
-  <% end %>
-</table>
+
+    <% @cart.products.each do |product, size, count| %>
+      <tr>
+        <td><%= product.title %></td>
+        <td><%= size %></td>
+        <td><%= count %></td>
+      </tr>
+    <% end %>
+  </table>
+</div>
