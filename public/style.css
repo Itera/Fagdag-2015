@@ -13,15 +13,19 @@ body {
 	margin: 0 auto;
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	padding: 40px;
+	line-height: 1.6;
 }
 
 header {
 	padding: 20px;
+	display: table;
+	width: 100%;
 }
 
 h1 {
 	text-transform: uppercase;
 	font-weight: 700;
+	display: table-cell;
 }
 
 h1 a {
@@ -47,6 +51,40 @@ input {
 	width: 25%;
 	padding: 10px;
 }
+
+.categories {
+	display: table-cell;
+}
+
+.categories li {
+	list-style: none;
+	display: inline-block;
+}
+
+.categories a {
+	margin-right: 2px;
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	color: #333;
+	text-decoration: none;
+}
+
+.icon-nav {
+	display: table-cell;
+	text-align: right;
+}
+
+.icon-nav li {
+	display: inline-block;
+}
+
+.icon-nav a {
+	width: 32px;
+	height: 32px;
+	background: #000;
+	display: inline-block;
+}
+
 
 a {
 	cursor: pointer;
