@@ -16,6 +16,7 @@ class OrdersController < ApplicationController
       ol = OrderLine.new(order: @order, product: prod, size: size, count:amount)
       ol.save
     end
+    cart.clear
     redirect_to(orders_path)
   end
   def order_params

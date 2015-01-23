@@ -43,6 +43,10 @@ class Cart
     products.empty?
   end
 
+  def clear
+    cart_storage.delete :products
+  end
+
   private
 
   def cart
