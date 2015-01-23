@@ -5,8 +5,8 @@ var orderRoutes = require('./order.server.routes');
 
 var router = express.Router();
 
-router.use('/product', productRoutes);
-router.use('/user', userRoutes);
-router.use('/order', orderRoutes);
+router.use('/products', productRoutes);
+router.use('/users', userRoutes);
+router.use('/orders', orderRoutes);
 
 module.exports = router;
