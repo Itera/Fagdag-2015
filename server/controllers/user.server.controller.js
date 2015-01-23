@@ -1,8 +1,10 @@
-var User = require('mongoose').model('User');
+var mongoose = require('mongoose');
+var User = mongoose.model('User');
+var Order = mongoose.model('Order');
 var handleError = require('./errors.server.controller').handleError;
 
 exports.load = function (req, res, next, id) {
-  User.find({ _id: id }, function(err, user) {
+  User.findOne({ _id: id }, function(err, user) {
     if (err) return handleError(res, err);
     req.user = user;
     next();
@@ -36,9 +38,9 @@ exports.create = function (req, res) {
 }
 
 exports.listOrders = function (req, res) {
-  res.status(200).json([
-    {
-      order: 'this should return orders for the user'
-    }
-  ]);
+  var user = req.user;
+  Order.find({ customer: user._id }, function(err, orders) {
+    if (err) return handleError(res, err);
+    res.status(200).json(orders);
+  });
 };
