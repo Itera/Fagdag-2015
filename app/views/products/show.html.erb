@@ -7,9 +7,22 @@
 
   <p><%=@product.description%></p>
 
-  <p>Farge: <%=@product.color%></p>
-  <p>Størrelser: <%=@product.size_min%>-<%=@product.size_max%></p>
-  <p>Pris: <%=@product.price%></p>
+  <table class="product-properties-table">
+    <tbody>
+      <tr>
+        <th>Farge</th>
+        <td><%=@product.color%></td>
+      </tr>
+      <tr>
+        <th>Størrelser</th>
+        <td><%=@product.size_min%>-<%=@product.size_max%></td>
+      </tr>
+      <tr>
+        <th>Pris</th>
+        <td><%='%.2f' % @product.price%></td>
+      </tr>
+    </tbody>
+  </table>
 
   <p>
     <%= form_tag add_to_cart_path(@product), method: :post, remote: true, class: "add-product" do %>
