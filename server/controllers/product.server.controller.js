@@ -21,6 +21,7 @@ exports.create = function(req, res) {
 
 exports.list = function(req, res) {
   Product.find({}, function(err, products) {
+    if (err) return handleError(res, err);
     res.status(200).json(products);
   });
 };
