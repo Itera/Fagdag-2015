@@ -29,7 +29,7 @@ exports.create = function(req, res) {
       if (err) return handleError(res, err);
       res.status(201).json(populated);
 
-      User.find({ _id: createdOrder.customer }, function(err, user) {
+      User.findOne({ _id: createdOrder.customer }, function(err, user) {
         if (err) return console.log('Error!', err);
         sendOrderConfirmation(populated, user);
       });
