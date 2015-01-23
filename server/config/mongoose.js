@@ -11,6 +11,7 @@ module.exports = function () {
     });
 
     require('../models/user.server.model');
+    require('../models/products.server.model');
 
     return db;
 };
