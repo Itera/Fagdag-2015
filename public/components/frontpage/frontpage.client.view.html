@@ -1,27 +1,32 @@
 <div ng-controller="IndexController as index">
 
 	<article ng-repeat="product in products | limitTo:2" class="product frontpage-top-2">
-			<img ng-src="/img/big_shoes.png" alt="Not found">
+		<a class="text-black" href="/#/products/{{product.shoeId}}">
+		<img ng-src="/img/products/{{product.shoeId}}.jpg" alt="Not found">
 
-			<!-- <div class="frontpage-product-info">
+
+			<div class="frontpage-product-info">
 				<ul>
 					<li>{{product.brand}}</li>
 					<li>{{product.name}}</li>
 					<li>{{product.price}},-</li>
 				</ul>
-			</div> -->
+			</div>
+		</a>
 	</article>
- <!-- ng-repeat="product in products | slice:2:6" -->
-	<article class="product frontpage-top-2">
-		<img ng-src="/img/small_shoes.jpg" alt="Not found">
 
-		<!-- <div class="frontpage-product-info">
-			<ul>
-				<li>{{product.brand}}</li>
-				<li>{{product.name}}</li>
-				<li>{{product.price}},-</li>
-			</ul>
-		</div> -->
+	<article ng-repeat="product in products | slice:2:6" class="product frontpage-bottom-4">
+		<a class="text-black" href="/#/products/{{product.shoeId}}">
+		<img ng-src="/img/products/{{product.shoeId}}.jpg" alt="Not found">
+
+			<div class="frontpage-product-info">
+				<ul>
+					<li>{{product.brand}}</li>
+					<li>{{product.name}}</li>
+					<li>{{product.price}},-</li>
+				</ul>
+			</div>
+		</a>
 	</article>
 
 </div>
