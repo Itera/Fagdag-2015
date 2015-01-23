@@ -282,3 +282,28 @@ button {
 	}
 }
 
+.cart {
+	max-width: 400px;
+	padding-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cart ul {
+	padding-left: 40px;
+}
+
+.cart .submit {
+	float: left;
+	max-width: 250px;
+	margin-right: 20px;
+}
+
+.cart .reset-btn {
+	max-width: 130px;
+	font-size: 0.8em;
+	color: ccc;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}

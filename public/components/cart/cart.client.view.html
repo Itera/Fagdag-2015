@@ -1,9 +1,10 @@
-<div ng-controller="CartController as cart">
-	<p><a ng-click="clearCart()">Tøm handlekurv</p>
+<div ng-controller="CartController as cart" class="cart">
+	<h3>Du har følgende varer i handlekurven</h3>
 	<ul>
 		<li ng-repeat='item in cart'>
 			{{item.product.name}} ({{item.count}})
 		</li>
 	</ul>
-	<p><a href="/#/checkout">Gå til betaling</a></p>
+	<p><button class="submit" onclick="window.href='/#/checkout'">Gå til betaling</button></p>
+	<p><button class="reset-btn" ng-click="clearCart()">Tøm handlekurv</button></p>
 </div>
