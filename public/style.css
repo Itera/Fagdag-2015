@@ -151,3 +151,44 @@ a {
 .brand-chooser label input {
 	margin-left: 5px;
 }
+
+.clearall {
+	clear: both;
+}
+
+/*Front page*/
+
+.frontpage-top-2 {
+	width: 100%;
+	position: relative;
+}
+
+.frontpage-bottom-4 {
+	width: 50%;
+	position: relative;
+	float: left;
+}
+
+.frontpage-bottom-4 img {
+	width: 50%;
+}
+
+.frontpage-top-2 img, .frontpage-bottom-4 img {
+	max-width: 100%;
+	width: 100%;
+}
+
+.frontpage-product-info {
+	background-color: #ffffff;
+	border: 1px solid black;
+	width: 300px;
+	position: absolute;
+	z-index: 2;
+	padding: 10px;
+	bottom: 4%;
+	right: 4%;
+}
+
+.frontpage-product-info li {
+	list-style: none;
+}

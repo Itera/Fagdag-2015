@@ -1,5 +1,6 @@
 var mongoose = require('mongoose'),
-    Schema = mongoose.Schema;
+    Schema = mongoose.Schema,
+    passportLocalMongoose = require('passport-local-mongoose');
 
 var UserSchema = new Schema({
     firstName: {
@@ -30,15 +31,13 @@ var UserSchema = new Schema({
     }
 });
 
-UserSchema.methods.hashPassword = function (password) {
-};
-
-UserSchema.methods.authenticate = function (password) {
-};
-
 UserSchema.set('toJSON', {
     getters: true,
     virtuals: true
+});
+
+UserSchema.plugin(passportLocalMongoose, {
+    usernameField: 'email'
 });
 
 mongoose.model('User', UserSchema);

@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var passport = require('passport');
 
 module.exports = function () {
 
@@ -16,6 +17,12 @@ module.exports = function () {
     require('../models/user.server.model');
     require('../models/products.server.model');
     require('../models/order.server.model');
+
+    var User = mongoose.model('User');
+    passport.use(User.createStrategy());
+
+    passport.serializeUser(User.serializeUser());
+    passport.deserializeUser(User.deserializeUser());
 
     return db;
 };
