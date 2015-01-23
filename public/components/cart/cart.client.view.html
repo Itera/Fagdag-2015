@@ -1,0 +1,8 @@
+<div ng-controller="CartController as cart">
+	<p><a ng-click="clearCart()">Tøm handlekurv</p>
+	<ul>
+		<li ng-repeat='item in cart'>
+			{{item.product.name}} ({{item.count}})
+		</li>
+	</ul>
+</div>

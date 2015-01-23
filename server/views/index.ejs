@@ -19,6 +19,7 @@
     <!-- Index -->
     <script src="/components/overview/overview.client.controller.js"></script>
     <script src="/components/overview/productService.client.service.js"></script>
+    <script src="/components/cart/cart.client.controller.js"></script>
 
     <!-- Login -->
     <script src="/components/login/login.client.controller.js"></script>
@@ -29,7 +30,11 @@
 <body ng-app="retailApp">
 
     <header>
-        <h1>Itera Retail</h1>
+        <h1><a ng-href="/#/">Shoebaloo</a></h1>
+
+        <ul>
+            <li><a ng-href="/#/cart">Handlekurv</a></li>
+        </ul>
     </header>
 
 	<div class="container">

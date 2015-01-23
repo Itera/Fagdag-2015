@@ -1,6 +1,8 @@
 <div ng-controller="IndexController as index">
-	<article ng-repeat="(id, product) in products" class="product">
+	<input ng-model='searchQuery' placeholder='Search products'>
+	<article ng-repeat="product in products | filter:searchQuery" class="product">
 		<h2>{{product.name}}</h2>
-		<img src="{{product.imageUrl}}" alt="">
+		<img ng-src="{{product.imageUrl}}" alt="">
+		<button ng-click='addProductToCart(product)'>Add to cart</button>
 	</article>
 </div>

@@ -10,6 +10,9 @@
 				.when('/login', {
 					templateUrl: 'components/login/login.client.view.html'
 				})
+				.when('/cart', {
+					templateUrl: 'components/cart/cart.client.view.html'
+				})
 				.otherwise({
 					redirectTo: '/'
 				});
