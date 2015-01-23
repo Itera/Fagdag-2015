@@ -3,6 +3,7 @@ var passport = require('passport');
 var deepPopulate = require('mongoose-deep-populate');
 var User = mongoose.model('User');
 var Order = mongoose.model('Order');
+var sendRegisterConfirmation = require('../mail').sendRegisterConfirmation;
 var handleError = require('./errors.server.controller').handleError;
 
 exports.load = function (req, res, next, id) {
@@ -33,6 +34,7 @@ exports.create = function (req, res) {
 	User.register(user, password, function (err, user) {
     if (err) return handleError(res, err);
 		res.status(200).json(user);
+    sendRegisterConfirmation(user);
 	});
 };
 

@@ -20,7 +20,8 @@
     "angular": "1.3.10",
     "bootstrap": "~3.3.2",
     "angular-bootstrap": "~0.12.0",
-    "angular-route": "~1.3.10"
+    "angular-route": "~1.3.10",
+    "angular-panel-snap": "*"
   },
   "resolutions": {
     "angular": "1.3.10"
