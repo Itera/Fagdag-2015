@@ -1,0 +1,6 @@
+<div ng-controller="IndexController as index">
+	<article ng-repeat="(id, product) in products" class="product">
+		<h2>{{product.name}}</h2>
+		<img src="{{product.imageUrl}}" alt="">
+	</article>
+</div>

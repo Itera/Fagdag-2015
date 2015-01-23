@@ -10,9 +10,6 @@
     <script src="/assets/lib/angular/angular.min.js"></script>
     <script src="/assets/lib/angular-route/angular-route.min.js"></script>
 
-    <!-- ui-bootstrap -->
-    <script src="/assets/lib/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-
     <!-- modules -->
     <script src="/app.client.module.js"></script>
 
@@ -20,13 +17,20 @@
     <script src="/config/routes.client.config.js"></script>
 
     <!-- Index -->
-    <script src="/components/index/index.client.controller.js"></script>
+    <script src="/components/overview/overview.client.controller.js"></script>
+    <script src="/components/overview/productService.client.service.js"></script>
 
     <!-- Login -->
     <script src="/components/login/login.client.controller.js"></script>
 
+    <link rel="stylesheet" href="/style.css">
+
 </head>
 <body ng-app="retailApp">
+
+    <header>
+        <h1>Itera Retail</h1>
+    </header>
 
 	<div class="container">
     	<div ng-view></div>
@@ -34,4 +38,4 @@
 
 </body>
 </html>
-    
+

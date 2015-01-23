@@ -1,10 +1,11 @@
 (function() {
 	angular
 		.module('retailApp')
-		.config(function($routeProvider) {
+		.config(function($locationProvider, $routeProvider) {
+			//$locationProvider.html5Mode(true);
 			$routeProvider
 				.when('/', {
-					templateUrl: 'components/index/index.client.view.html'
+					templateUrl: 'components/overview/overview.client.view.html'
 				})
 				.when('/login', {
 					templateUrl: 'components/login/login.client.view.html'
