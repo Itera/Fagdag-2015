@@ -1,4 +1,5 @@
 var mongoose = require('mongoose'),
+  deepPopulate = require('mongoose-deep-populate'),
 	Schema = mongoose.Schema;
 
 var ItemSchema = new Schema({
@@ -22,6 +23,8 @@ var OrderSchema = new Schema({
     default: Date.now
   }
 });
+
+OrderSchema.plugin(deepPopulate);
 
 OrderSchema.set('toJSON', {
   getters: true,
