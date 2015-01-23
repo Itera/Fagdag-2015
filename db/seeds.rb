@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 import_path = 'db/import_data/produkter'
-assets_path = 'app/assets/images'
+assets_path = 'app/assets/images/products'
 
 products = {}
 
@@ -25,7 +25,7 @@ Dir.foreach(import_path) do |product|
 
   if product.end_with? ".jpg"
     FileUtils.cp(path, assets_path)
-    products[id][:image] = product
+    products[id][:image] = "products/%s" % [product]
   elsif product.end_with? ".txt"
     fields = File.readlines(path).map(&:chomp)
     products[id][:price] = fields[0].to_f
