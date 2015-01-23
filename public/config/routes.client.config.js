@@ -5,7 +5,7 @@
 			//$locationProvider.html5Mode(true);
 			$routeProvider
 				.when('/', {
-					templateUrl: 'components/overview/overview.client.view.html'
+					templateUrl: 'components/frontpage/frontpage.client.view.html'
 				})
 				.when('/login', {
 					templateUrl: 'components/login/login.client.view.html'
