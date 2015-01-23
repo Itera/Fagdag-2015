@@ -4,7 +4,7 @@ var mongoose = require('mongoose'),
 var ItemSchema = new Schema({
 	product: {
 		type: Schema.Types.ObjectId,
-		ref: 'Products'
+		ref: 'Product'
 	},
 	quantity: {
 		type: Number
