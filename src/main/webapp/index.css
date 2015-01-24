@@ -1,0 +1,72 @@
+body {
+	background: white;
+	color: rgb(107, 107, 107);
+	font-family: 'Consolas', monaco;
+}
+
+.logo {
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.navbar-default {
+	background: rgb(171, 221, 241);
+	border-color: rgb(191, 241, 255);
+}
+
+.cart-link img {
+	height: 20px;
+}
+
+.cart-link .count {
+	margin-left: 10px;
+	font-size: 15px;
+	color: #111;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+.product-list li {
+	list-style-type: none;
+	width: 300px;
+	height: 250px;
+	float: left;
+	position: relative;
+	border: 1px solid rgb(207,207,207);
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.product-list li span {
+	display: block;
+}
+
+.product-list li img {
+	width: 250px;
+}
+
+.product-list .product .price {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.product-list .product .name {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-style: italic;
+	letter-spacing: 2px;
+	float: right;
+}
+
+.product-list .product .brand {
+	float: left;
+}
+
+.product-list .product .btn-primary {
+	background: rgb(255, 129, 0);
+	border-color: rgb(255, 159, 30);
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
