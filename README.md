@@ -1,6 +1,7 @@
 # Retail Webshop
 
 Hackathon duration: 7 hours
+<br/>
 Final product: http://iterafagdag2015.azurewebsites.net/
 
 <h2>Authors</h2>
