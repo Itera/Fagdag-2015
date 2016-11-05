@@ -1,0 +1,36 @@
+<h1>Handlekurv</h1>
+
+<% if @cart.empty? %>
+  <p>Din handlekurv er tom.</p>
+<% else %>
+  <ul>
+    <% @cart.products.each do |product, size, amount| %>
+      <li>
+        <%= product.title %> (størrelse <%= size %>): <%= amount %>
+        <%= button_to "Fjern én", decrease_from_cart_path(product, size: size) %>
+        <%= button_to "Fjern alle", remove_from_cart_path(product, size: size) %>
+      </li>
+    <% end %>
+  </ul>
+  <br>
+  <%= form_for @order do |f| %>
+    <%= f.select "user_id", options_from_collection_for_select(@users, "id", "name") %><br />
+    <table>
+      <tr>
+        <td><%= f.label :credit_card %>:</td>
+        <td colspan="2"><%= f.text_field :credit_card, size: 16 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label "Utløp" %>:</td>
+        <td><%= f.text_field :exp_month, size: 2 %></td>
+        <td><%= f.text_field :exp_year, size: 4 %></td>
+      </tr>
+      <tr>
+        <td><%= f.label :cc %>:</td>
+        <td><%= f.text_field :cc, size: 3 %></td>
+      </tr>
+    </table>
+
+    <%= f.submit "Kjøp" %>
+   <% end %>
+<% end %>

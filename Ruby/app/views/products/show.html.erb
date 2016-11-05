@@ -1,0 +1,34 @@
+<div class="product">
+
+  <h1><%=@product.title%></h1>
+  <h2><%=@product.brand%></h1>
+
+  <img src="<%=image_path(@product.image)%>">
+
+  <p><%=@product.description%></p>
+
+  <table class="product-properties-table">
+    <tbody>
+      <tr>
+        <th>Farge</th>
+        <td><%=@product.color%></td>
+      </tr>
+      <tr>
+        <th>Størrelser</th>
+        <td><%=@product.size_min%>-<%=@product.size_max%></td>
+      </tr>
+      <tr>
+        <th>Pris</th>
+        <td><%='%.2f' % @product.price%></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    <%= form_tag add_to_cart_path(@product), method: :post, remote: true, class: "add-product" do %>
+      <%= select_tag :size, options_for_select(@product.size_min..@product.size_max) %>
+      <%= submit_tag "Legg til" %>
+    <% end %>
+  </p>
+
+</div>

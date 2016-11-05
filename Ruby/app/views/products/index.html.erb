@@ -1,0 +1,29 @@
+<div id="cart">
+      <%= render "carts/show" %>
+</div>
+
+<ul class="product-list">
+  <% @products.each do |prod| %>
+    <li>
+      <a href="<%=product_path(prod)%>">
+        <img src="<%=image_path(prod.image)%>">
+      </a>
+      <div class="text">
+        <h2>
+          <a href="<%=product_path(prod)%>">
+            <%=prod.title%>
+          </a>
+        </h2>
+        <h3><%=prod.brand%></h3>
+        <p>Farge: <%=prod.color%></p>
+      </div>
+      <div class="buy">
+        <span class="price"><%='%.02f' % prod.price%></span>
+        <%= form_tag add_to_cart_path(prod), method: :post, remote: true, class: "add-product" do %>
+          <%= select_tag :size, options_for_select(prod.size_min..prod.size_max) %>
+          <%= submit_tag "Legg til" %>
+        <% end %>
+      </div>
+    </li>
+  <%end%>
+</ul>
