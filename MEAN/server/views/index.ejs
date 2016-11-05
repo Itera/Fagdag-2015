@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title><%= title %></title>
+
+    <!-- angular -->
+    <script src="/assets/lib/angular/angular.min.js"></script>
+    <script src="/assets/lib/angular-route/angular-route.min.js"></script>
+
+    <!-- Panelsnap (place after Angular) -->
+    <script src="/assets/lib/angular-panel-snap/angular-panel-snap.min.js"></script>
+
+
+    <!-- modules -->
+    <script src="/app.client.module.js"></script>
+
+    <!-- config -->
+    <script src="/config/routes.client.config.js"></script>
+
+    <!-- Index -->
+    <script src="/components/frontpage/frontpage.client.controller.js"></script>
+    <script src="/components/overview/overview.client.controller.js"></script>
+    <script src="/components/overview/productService.client.service.js"></script>
+    <script src="/components/cart/cart.client.controller.js"></script>
+
+    <!-- Login -->
+    <script src="/components/login/login.client.controller.js"></script>
+    <script src="/components/login/login.client.service.js"></script>
+
+    <!-- Register -->
+    <script src="/components/register/register.client.controller.js"></script>
+    <script src="/components/register/register.client.service.js"></script>
+
+    <!-- Checkout -->
+    <script src="/components/checkout/checkout.client.controller.js"></script>
+    <script src="/components/checkout/checkout.client.service.js"></script>
+
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Product details -->
+    <script src="/components/product-details/product-details.client.controller.js"></script>
+
+    <!-- My page -->
+    <script src="/components/my-page/my-page.client.controller.js"></script>
+
+    <script src="/components/my-page/ordersService.client.service.js"></script>
+
+    
+
+</head>
+<body ng-app="retailApp">
+
+    <header>
+        <h1><a ng-href="/#/">Shoebaloo</a></h1>
+
+        <nav class="categories">
+            <ul>
+                <li><a ng-href="/#/products">Women</a></li>
+                <li>|</li>
+                <li><a ng-href="/#/products">Brands</a></li>
+                <li>|</li>
+                <li><a ng-href="/#/products">Men</a></li>
+            </ul>
+        </nav>
+
+        <div class="icon-nav">
+            <ul>
+                <li><a class="mysite-icon" href="/#/my-page"></a></li>
+                <li><a class="cart-icon" href="/#/cart"></a></li>
+                <li><a class="search-icon" href=""></a></li>
+            </ul>
+        </div>
+    </header>
+
+	<div class="container">
+    	<div ng-view></div>
+	</div>
+
+</body>
+</html>
+

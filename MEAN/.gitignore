@@ -1,0 +1,10 @@
+.idea/
+.DS_Store
+*.iml*
+*.log
+.gitignore~
+
+
+node_modules
+public/assets/lib
+

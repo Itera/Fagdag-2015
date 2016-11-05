@@ -1,0 +1,19 @@
+<div ng-controller="IndexController as index">
+	<!--<div class="search-container">
+		<input ng-model="searchQuery" placeholder="Search products" type="text">
+	</div>-->
+	<div class="brand-chooser">
+		<label ng-repeat="brand in brandNames">{{brand}}<input type="checkbox" ng-model="chosenBrands[brand]"></label>
+	</div>
+
+	<article ng-repeat="product in products | filter:searchQuery | filter:filterBrands()" class="product">
+		<a ng-href="/#/products/{{product.shoeId}}">
+			<img ng-src="/img/products/{{product.shoeId}}.jpg" alt="Not found">
+			<div class="product-title">
+				<h2>{{product.brand}}</h2>
+				<p>{{product.price}} nok</p>
+				<span class="favorite">&#9829;</span>
+			</div>
+		</a>
+	</article>
+</div>
