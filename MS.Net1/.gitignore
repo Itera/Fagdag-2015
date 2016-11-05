@@ -1,0 +1,7 @@
+Itera.Fagdag.November/bin
+Itera.Fagdag.November/obj
+Itera.Fagdag.November/*.user
+Itera.Fagdag.November.Domain/bin
+Itera.Fagdag.November.Domain/obj
+*.suo
+*.user
