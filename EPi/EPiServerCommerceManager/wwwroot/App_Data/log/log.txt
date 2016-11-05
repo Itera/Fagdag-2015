@@ -1,0 +1,552 @@
+2015-01-23 13:19:52,256 [172] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:19:52,271 [68] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:19:52,271 [171] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:19:52,271 [176] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:19:52,271 [79] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogCommittedContent6066en
+2015-01-23 13:19:52,271 [182] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:19:52,271 [172] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogContentMasterLanguage6066
+2015-01-23 13:19:52,271 [68] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:19:52,287 [176] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:19:52,474 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteRelationUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:19:52,474 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteCatalogItemUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:19:52,474 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:19:52,474 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:19:52,474 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:19:52,474 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -1073741823__CatalogContent
+2015-01-23 13:19:52,474 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-1073741823__CatalogContent
+2015-01-23 13:19:52,474 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:19:52,490 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:19:52,490 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:19:52,490 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 134, CatalogNode
+2015-01-23 13:19:52,490 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:19:52,490 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:19:52,490 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:19:52,490 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 1, Catalog, False
+2015-01-23 13:19:52,490 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:19:52,490 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1073741958__CatalogContent
+2015-01-23 13:19:52,490 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:1073741958__CatalogContent
+2015-01-23 13:19:52,490 [84] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:-2147483647__CatalogContent
+2015-01-23 13:19:52,506 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:19:52,506 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:19:52,506 [83] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:20:04,982 [145] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:20:04,982 [145] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:20:13,182 [180] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:20:13,182 [180] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:20:13,198 [180] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CacheWarehouseInventoryServiceMasterCacheKey
+2015-01-23 13:20:13,213 [180] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>5a32aff4-55d2-49c6-aeba-d381719a105e</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:13,213 [180] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:13,229 [249] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:13,229 [250] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:13,229 [182] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:20:13,229 [251] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:20:13,229 [252] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogCommittedContent6066en
+2015-01-23 13:20:13,229 [256] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogContentMasterLanguage6066
+2015-01-23 13:20:13,229 [257] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:13,244 [249] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:20:13,244 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteCatalogItemUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:20:13,244 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:20:13,244 [250] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:20:13,244 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:20:13,260 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:20:13,260 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -1073741823__CatalogContent
+2015-01-23 13:20:13,260 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-1073741823__CatalogContent
+2015-01-23 13:20:13,260 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:20:13,260 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:20:13,260 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:20:13,260 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 1, Catalog, False
+2015-01-23 13:20:13,260 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:20:13,260 [78] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:-2147483647__CatalogContent
+2015-01-23 13:20:13,260 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteRelationUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:20:13,291 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:20:13,291 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:20:13,291 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:20:13,291 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 134, CatalogNode
+2015-01-23 13:20:13,291 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1073741958__CatalogContent
+2015-01-23 13:20:13,291 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:1073741958__CatalogContent
+2015-01-23 13:20:13,291 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:20:13,291 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:20:13,291 [80] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:20:31,045 [180] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:20:31,049 [180] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:20:31,068 [189] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CacheWarehouseInventoryServiceMasterCacheKey
+2015-01-23 13:20:31,070 [189] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>5a32aff4-55d2-49c6-aeba-d381719a105e</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:31,086 [189] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:31,086 [189] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:31,086 [189] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:31,086 [185] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:20:31,086 [185] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogCommittedContent6066en
+2015-01-23 13:20:31,086 [178] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:20:31,086 [177] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:20:31,086 [184] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:20:31,086 [180] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogContentMasterLanguage6066
+2015-01-23 13:20:31,086 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteCatalogItemUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:20:31,102 [184] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:20:31,117 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:20:31,117 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:20:31,117 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:20:31,117 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -1073741823__CatalogContent
+2015-01-23 13:20:31,117 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-1073741823__CatalogContent
+2015-01-23 13:20:31,117 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:20:31,117 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:20:31,117 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:20:31,117 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 1, Catalog, False
+2015-01-23 13:20:31,117 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteRelationUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:20:31,133 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:20:31,133 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:20:31,133 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:20:31,133 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 134, CatalogNode
+2015-01-23 13:20:31,133 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:20:31,133 [112] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:-2147483647__CatalogContent
+2015-01-23 13:20:31,133 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1073741958__CatalogContent
+2015-01-23 13:20:31,133 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:1073741958__CatalogContent
+2015-01-23 13:20:31,133 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:20:31,133 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:20:31,164 [109] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:20:34,992 [80] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:20:34,992 [80] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:20:35,524 [144] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-23 13:20:35,524 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-23 13:20:35,524 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-23 13:20:35,524 [144] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/23/2015 12:43:11 (3861c25f-198b-4270-bbaf-66072b376273)
+2015-01-23 13:21:05,002 [93] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:21:05,002 [93] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:21:26,187 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: MININT-C2K4D11, ApplicationName: /LM/W3SVC/8/ROOT, Type: WhatsUp, Sent: 01/23/2015 12:21:26
+2015-01-23 13:21:26,187 [126] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: ITE-PC-01-086, ApplicationName: /LM/W3SVC/11/ROOT, Type: Awesome, Sent: 01/23/2015 12:21:26
+2015-01-23 13:21:26,187 [130] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: MININT-C2K4D11, ApplicationName: /LM/W3SVC/9/ROOT, Type: Awesome, Sent: 01/23/2015 12:21:26
+2015-01-23 13:21:26,187 [205] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: ITE-PC-01-086, ApplicationName: /LM/W3SVC/12/ROOT, Type: Awesome, Sent: 01/23/2015 12:21:26
+2015-01-23 13:21:26,218 [112] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-23 13:21:27,282 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:21:27,282 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:21:27,299 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CacheWarehouseInventoryServiceMasterCacheKey
+2015-01-23 13:21:27,315 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>5a32aff4-55d2-49c6-aeba-d381719a105e</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:21:27,315 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:21:27,315 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:21:27,331 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:21:27,331 [126] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:21:27,331 [125] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:21:27,331 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:21:27,331 [123] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogCommittedContent6066en
+2015-01-23 13:21:27,331 [250] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogContentMasterLanguage6066
+2015-01-23 13:21:27,331 [130] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:21:27,346 [129] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:21:27,346 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteCatalogItemUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:21:27,346 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:21:27,346 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:21:27,346 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:21:27,346 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -1073741823__CatalogContent
+2015-01-23 13:21:27,346 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteRelationUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:21:27,378 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:21:27,378 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:21:27,378 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:21:27,378 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 134, CatalogNode
+2015-01-23 13:21:27,378 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1073741958__CatalogContent
+2015-01-23 13:21:27,378 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:1073741958__CatalogContent
+2015-01-23 13:21:27,378 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:21:27,378 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:21:27,378 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:21:27,378 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-1073741823__CatalogContent
+2015-01-23 13:21:27,393 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:21:27,393 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:21:27,393 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:21:27,393 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 1, Catalog, False
+2015-01-23 13:21:27,393 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:21:27,393 [91] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:-2147483647__CatalogContent
+2015-01-23 13:21:35,012 [91] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:21:35,012 [91] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:21:35,340 [92] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: ITE-PC-01-086, ApplicationName: /LM/W3SVC/12/ROOT, Type: WhatsUp, Sent: 01/23/2015 12:21:35
+2015-01-23 13:21:35,340 [205] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-23 13:21:35,340 [131] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: ITE-PC-01-086, ApplicationName: /LM/W3SVC/11/ROOT, Type: Awesome, Sent: 01/23/2015 12:21:35
+2015-01-23 13:21:35,340 [129] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: MININT-C2K4D11, ApplicationName: /LM/W3SVC/9/ROOT, Type: Awesome, Sent: 01/23/2015 12:21:35
+2015-01-23 13:21:35,340 [250] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: MININT-C2K4D11, ApplicationName: /LM/W3SVC/8/ROOT, Type: Awesome, Sent: 01/23/2015 12:21:35
+2015-01-23 13:21:35,528 [144] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-23 13:21:35,528 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-23 13:21:35,528 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-23 13:21:35,528 [144] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/23/2015 12:43:11 (3861c25f-198b-4270-bbaf-66072b376273)
+2015-01-23 13:22:05,012 [193] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:22:05,012 [193] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:22:05,976 [130] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:22:05,976 [130] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:22:05,992 [130] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CacheWarehouseInventoryServiceMasterCacheKey
+2015-01-23 13:22:06,007 [207] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:06,007 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>5a32aff4-55d2-49c6-aeba-d381719a105e</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:06,023 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:06,023 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:06,023 [130] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:06,023 [130] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:06,023 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:22:06,023 [206] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogCommittedContent6066en
+2015-01-23 13:22:06,023 [211] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogContentMasterLanguage6066
+2015-01-23 13:22:06,023 [207] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:06,023 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteCatalogItemUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:22:06,039 [207] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:22:06,054 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteRelationUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:22:06,054 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:22:06,054 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:22:06,054 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:22:06,054 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:22:06,054 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -1073741823__CatalogContent
+2015-01-23 13:22:06,054 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-1073741823__CatalogContent
+2015-01-23 13:22:06,054 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:22:06,054 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:22:06,054 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 134, CatalogNode
+2015-01-23 13:22:06,054 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:22:06,070 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:22:06,070 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:22:06,070 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 1, Catalog, False
+2015-01-23 13:22:06,070 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:22:06,070 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1073741958__CatalogContent
+2015-01-23 13:22:06,070 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:1073741958__CatalogContent
+2015-01-23 13:22:06,070 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:22:06,070 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:22:06,070 [193] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:22:06,070 [102] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:-2147483647__CatalogContent
+2015-01-23 13:22:26,305 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>1966cbe5-deb8-4ca6-bde2-e6e0ab08d14d</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:26,307 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EPiServer.Shell.Notification.InUseNotificationStore
+2015-01-23 13:22:26,315 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>5c1aa4d9-9717-47e0-8342-cdb50bb946c7</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:26,320 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:26,332 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:26,335 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:26,336 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:26,336 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogCommittedContent6066en
+2015-01-23 13:22:26,336 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:26,336 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogContentMasterLanguage6066
+2015-01-23 13:22:26,342 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:26,415 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>5c1aa4d9-9717-47e0-8342-cdb50bb946c7</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:26,421 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:26,423 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogCommittedContent6066en
+2015-01-23 13:22:26,423 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:26,423 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogContentMasterLanguage6066
+2015-01-23 13:22:26,430 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:28,244 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>5c1aa4d9-9717-47e0-8342-cdb50bb946c7</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:28,758 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:28,761 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogCommittedContent6066en
+2015-01-23 13:22:28,761 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:28,761 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogContentMasterLanguage6066
+2015-01-23 13:22:28,767 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:30,111 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:30,144 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:22:30,158 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:8b448bc6-f7e1-4833-bdc7-ca338b77adfa param:System.Byte[]
+2015-01-23 13:22:30,159 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RemoteCatalogItemUpdate' with parameter values: , EPiServer.Business.Commerce.ProductUpdatedEventArgs
+2015-01-23 13:22:30,159 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 6066, CatalogEntry, False
+2015-01-23 13:22:30,159 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: 6066__CatalogContent
+2015-01-23 13:22:30,160 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:6066__CatalogContent
+2015-01-23 13:22:30,160 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -1073741823__CatalogContent
+2015-01-23 13:22:30,160 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-1073741823__CatalogContent
+2015-01-23 13:22:30,160 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: 1, Catalog
+2015-01-23 13:22:30,171 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>5c1aa4d9-9717-47e0-8342-cdb50bb946c7</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:30,176 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:30,184 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearChildListCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:22:30,181 [64] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:30,185 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPChildrenData:-2147483647__CatalogContent
+2015-01-23 13:22:30,186 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'RefreshContent' with parameter values: 1, Catalog, False
+2015-01-23 13:22:30,186 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearContentCache' with parameter values: -2147483647__CatalogContent
+2015-01-23 13:22:30,186 [205] DEBUG EPiServer.Commerce.Catalog.Provider.CatalogEventHandler - Calling 'ClearLocalCacheAndVersionKey' with parameter values: EPLanguageData:-2147483647__CatalogContent
+2015-01-23 13:22:30,188 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:30,191 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>EPiServer.Commerce.Catalog.Provider.CatalogContentDraft</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>ClearStore</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:30,192 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:30,192 [64] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogContentMasterLanguage6066
+2015-01-23 13:22:30,192 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:CatalogCommittedContent6066en
+2015-01-23 13:22:30,192 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:30,199 [63] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EPLanguageData:6066__CatalogContent
+2015-01-23 13:22:30,199 [66] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EPChildrenData:1073741958__CatalogContent
+2015-01-23 13:22:30,199 [65] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:DataFactoryCache.Version
+2015-01-23 13:22:30,199 [67] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:DataFactoryCache.Version
+2015-01-23 13:22:30,200 [58] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EPChildrenData:6066__CatalogContent
+2015-01-23 13:22:30,219 [210] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>593f6edf-0ff6-41ea-99ae-9f2ad98a72ea</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:30,218 [209] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EPSegmentData:1073741958:brun__CatalogContent
+2015-01-23 13:22:30,218 [64] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:DataFactoryCache.Version
+2015-01-23 13:22:30,218 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EP:ContentVersion:6066__CatalogContent
+2015-01-23 13:22:30,349 [82] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>1966cbe5-deb8-4ca6-bde2-e6e0ab08d14d</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:30,349 [64] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:9484e34b-b419-4e59-8fd5-3277668a7fce param:EPiServer.Shell.Notification.InUseNotificationStore
+2015-01-23 13:22:35,027 [74] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:22:35,027 [74] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:22:35,527 [144] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-23 13:22:35,527 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-23 13:22:35,527 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-23 13:22:35,527 [144] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/23/2015 12:43:11 (3861c25f-198b-4270-bbaf-66072b376273)
+2015-01-23 13:22:40,582 [64] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>593f6edf-0ff6-41ea-99ae-9f2ad98a72ea</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:22:40,702 [64] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:1ee4c0b5-ca95-4bdb-b0d4-e5d9e91189aa param:<?xml version="1.0" encoding="utf-16"?>
+<CacheChangedEventArgs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ItemsToProcess>
+    <string>593f6edf-0ff6-41ea-99ae-9f2ad98a72ea</string>
+  </ItemsToProcess>
+  <TypeOfEventAction>Remove</TypeOfEventAction>
+</CacheChangedEventArgs>
+2015-01-23 13:23:05,042 [70] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:23:05,042 [70] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:23:35,043 [205] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:23:35,043 [205] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:23:35,526 [144] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-23 13:23:35,526 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-23 13:23:35,528 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-23 13:23:35,528 [144] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/23/2015 12:43:11 (3861c25f-198b-4270-bbaf-66072b376273)
+2015-01-23 13:23:39,813 [63] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: ITE-PC-01-086, ApplicationName: /LM/W3SVC/11/ROOT, Type: WhatsUp, Sent: 01/23/2015 12:23:39
+2015-01-23 13:23:39,814 [74] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: ITE-PC-01-086, ApplicationName: /LM/W3SVC/12/ROOT, Type: Awesome, Sent: 01/23/2015 12:23:39
+2015-01-23 13:23:39,814 [59] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-23 13:23:39,815 [63] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: MININT-C2K4D11, ApplicationName: /LM/W3SVC/9/ROOT, Type: Awesome, Sent: 01/23/2015 12:23:40
+2015-01-23 13:23:39,815 [64] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: MININT-C2K4D11, ApplicationName: /LM/W3SVC/8/ROOT, Type: Awesome, Sent: 01/23/2015 12:23:40
+2015-01-23 13:24:05,054 [98] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:24:05,054 [98] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:24:35,068 [70] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:24:35,068 [70] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:24:35,538 [144] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-23 13:24:35,538 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-23 13:24:35,538 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-23 13:24:35,538 [144] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/23/2015 12:43:11 (3861c25f-198b-4270-bbaf-66072b376273)
+2015-01-23 13:25:05,076 [75] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:25:05,108 [75] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:25:35,121 [70] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:25:35,121 [70] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:25:35,537 [144] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-23 13:25:35,537 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-23 13:25:35,539 [144] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-23 13:25:35,539 [144] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/23/2015 12:43:11 (3861c25f-198b-4270-bbaf-66072b376273)
+2015-01-23 13:26:02,370 [115] WARN  EPiServer.Framework.Initialization.ShutdownTracker - ASP.NET shutting down due to HostingEnvironment
+2015-01-23 13:26:02,372 [76] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: ITE-PC-01-086, ApplicationName: /LM/W3SVC/11/ROOT, Type: Bye, Sent: 01/23/2015 12:26:02
+2015-01-23 13:26:02,374 [115] INFO  EPiServer.Events.Remote.EventReplicationWCFProviders - The EventReplicationWCFProviders is UnInitialized
+2015-01-23 13:26:05,135 [86] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-23 13:26:05,163 [86] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-23 13:26:06,684 [115] INFO  EPiServer.Scheduler.SchedulerService - Scheduler Service stopped
+2015-01-23 13:26:06,684 [115] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: ITE-PC-01-086, ApplicationName: /LM/W3SVC/12/ROOT, Type: Bye, Sent: 01/23/2015 12:26:06
+2015-01-23 13:26:06,685 [246] INFO  EPiServer.Events.Providers.EventProviderService - Cancel sending event message as the EventProviderService doesn't have any configured providers.

@@ -1,0 +1,71 @@
+﻿body {
+    
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+.modal
+{
+    max-height: 800px !important;
+    width: 780px !important;
+    margin-left: -390px; /* - width/2 */
+    margin-top: -400px;
+}
+
+.requiredfield {
+    color: red;
+}
+
+/* Truncate String with Ellipsis */
+.truncate {
+    white-space: nowrap;  
+    width: 100%;  
+    overflow: hidden;  
+    text-overflow: ellipsis;  
+}
+
+
+/* Additional styling september 2013*/
+.C_Coupon-Discount-Center {
+    margin-bottom: 20px;
+}
+.hero-unit,
+.C_Footer-Navigation {
+    margin-top: 20px;
+}
+
+.C_Footer-Navigation {
+    padding: 10px 15px;
+}
+
+.navbar-search .search-query,
+.navbar-search .search-query:hover {
+    -webkit-transition: background 0.15s ;
+    transition: background 0.15s ;
+}
+
+/* Grid content
+-------------------------------------------------- */
+#gridContent {
+    white-space: nowrap;
+}
+#gridContent.listview img {
+    float: left;
+    padding: 0 20px 0 0;
+}
